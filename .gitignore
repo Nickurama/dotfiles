@@ -1,0 +1,19 @@
+# ignore all
+/*
+
+#include
+!.gitignore
+!.bashrc
+!.taskrc
+
+#include folders
+!/.task/
+!/.task/**
+
+/.config/*
+!/.config/
+!/.config/nvim/
+!/.config/nvim/**
+
+!/.goodies/
+!/.goodies/**
