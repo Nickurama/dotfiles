@@ -1,0 +1,4 @@
+[description:"Make git repo of config" end:"1711469599" entry:"1711373541" modified:"1711469599" priority:"A" project:"nvim" status:"completed" uuid:"ab1d35c6-2dc8-421c-a4a0-dda013d0568f"]
+[description:"Testing for Java (junit)" end:"1711461000" entry:"1711369516" modified:"1711461000" priority:"S" project:"nvim" status:"completed" uuid:"2b0adb78-f908-44a2-a2d7-97ffba4f7184"]
+[description:"Executing for Java" end:"1711461004" entry:"1711373021" modified:"1711461004" priority:"S" project:"nvim" status:"completed" uuid:"dbff3ced-3855-426e-9bb2-8f799398edc0"]
+[description:"Exceptions show off-monitor in vim" end:"1711369266" entry:"1711368712" modified:"1711369266" status:"deleted" uuid:"6edcc1e3-21e2-4327-9cba-1dcc1d3910d1"]

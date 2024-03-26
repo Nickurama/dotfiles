@@ -1,0 +1,57 @@
+{"description":"Exceptions show off-monitor in vim","entry":"20240325T121152Z","modified":"20240325T121152Z","status":"pending","uuid":"6edcc1e3-21e2-4327-9cba-1dcc1d3910d1"}
+{"description":"Exceptions show off-monitor in vim","end":"20240325T122106Z","entry":"20240325T121152Z","modified":"20240325T122106Z","status":"deleted","uuid":"6edcc1e3-21e2-4327-9cba-1dcc1d3910d1"}
+{"description":"Exceptions show off-monitor","entry":"20240325T122221Z","modified":"20240325T122221Z","priority":"M","project":"nvim","status":"pending","uuid":"6645a4b3-51f6-4813-91d7-df1135cbd3d2"}
+{"description":"Personalized formatter","entry":"20240325T122303Z","modified":"20240325T122303Z","priority":"L","project":"nvim","status":"pending","uuid":"b112a28d-5540-4c9f-a510-ff5a65f6413e"}
+{"description":"Debugging for C","entry":"20240325T122322Z","modified":"20240325T122322Z","priority":"L","project":"nvim","status":"pending","uuid":"2e49b553-e433-4cc0-917b-62deb37f8c10"}
+{"description":"Debugging for Python","entry":"20240325T122339Z","modified":"20240325T122339Z","priority":"H","project":"nvim","status":"pending","uuid":"d01d75eb-22c6-4a31-8624-91c1dfaecdd9"}
+{"description":"Debugging for C","entry":"20240325T122322Z","modified":"20240325T122403Z","priority":"H","project":"nvim","status":"pending","uuid":"2e49b553-e433-4cc0-917b-62deb37f8c10"}
+{"description":"Testing for Java (junit)","entry":"20240325T122516Z","modified":"20240325T122516Z","priority":"H","project":"nvim","status":"pending","uuid":"2b0adb78-f908-44a2-a2d7-97ffba4f7184"}
+{"description":"Debugging for C","entry":"20240325T122322Z","modified":"20240325T122824Z","priority":"S","project":"nvim","status":"pending","uuid":"2e49b553-e433-4cc0-917b-62deb37f8c10"}
+{"description":"Debugging for Python","entry":"20240325T122339Z","modified":"20240325T122916Z","priority":"S","project":"nvim","status":"pending","uuid":"d01d75eb-22c6-4a31-8624-91c1dfaecdd9"}
+{"description":"Personalized formatter","entry":"20240325T122303Z","modified":"20240325T122936Z","priority":"D","project":"nvim","status":"pending","uuid":"b112a28d-5540-4c9f-a510-ff5a65f6413e"}
+{"description":"Exceptions show off-monitor","entry":"20240325T122221Z","modified":"20240325T122943Z","priority":"D","project":"nvim","status":"pending","uuid":"6645a4b3-51f6-4813-91d7-df1135cbd3d2"}
+{"description":"Exceptions show off-monitor","entry":"20240325T122221Z","modified":"20240325T122952Z","priority":"C","project":"nvim","status":"pending","uuid":"6645a4b3-51f6-4813-91d7-df1135cbd3d2"}
+{"description":"Testing for Java (junit)","entry":"20240325T122516Z","modified":"20240325T123002Z","priority":"S","project":"nvim","status":"pending","uuid":"2b0adb78-f908-44a2-a2d7-97ffba4f7184"}
+{"description":"Personalized formatter","entry":"20240325T122303Z","modified":"20240325T124300Z","priority":"F","project":"nvim","status":"pending","uuid":"b112a28d-5540-4c9f-a510-ff5a65f6413e"}
+{"description":"Personalized formatter","entry":"20240325T122303Z","modified":"20240325T124311Z","priority":"D","project":"nvim","status":"pending","uuid":"b112a28d-5540-4c9f-a510-ff5a65f6413e"}
+{"description":"Debugging for Python","entry":"20240325T122339Z","modified":"20240325T130240Z","priority":"D","project":"nvim","status":"pending","uuid":"d01d75eb-22c6-4a31-8624-91c1dfaecdd9"}
+{"description":"Debugging for Python","entry":"20240325T122339Z","modified":"20240325T130247Z","priority":"S","project":"nvim","status":"pending","uuid":"d01d75eb-22c6-4a31-8624-91c1dfaecdd9"}
+{"description":"Debugging for C","entry":"20240325T122322Z","modified":"20240325T131857Z","priority":"D","project":"nvim","status":"pending","uuid":"2e49b553-e433-4cc0-917b-62deb37f8c10"}
+{"description":"Debugging for C","entry":"20240325T122322Z","modified":"20240325T131905Z","priority":"F","project":"nvim","status":"pending","uuid":"2e49b553-e433-4cc0-917b-62deb37f8c10"}
+{"description":"Debugging for C","entry":"20240325T122322Z","modified":"20240325T131913Z","priority":"S","project":"nvim","status":"pending","uuid":"2e49b553-e433-4cc0-917b-62deb37f8c10"}
+{"description":"Debugging for C","entry":"20240325T122322Z","modified":"20240325T132134Z","priority":"A","project":"nvim","status":"pending","uuid":"2e49b553-e433-4cc0-917b-62deb37f8c10"}
+{"description":"Debugging for Python","entry":"20240325T122339Z","modified":"20240325T132153Z","priority":"A","project":"nvim","status":"pending","uuid":"d01d75eb-22c6-4a31-8624-91c1dfaecdd9"}
+{"description":"Exceptions show off-monitor","entry":"20240325T122221Z","modified":"20240325T132239Z","priority":"D","project":"nvim","status":"pending","uuid":"6645a4b3-51f6-4813-91d7-df1135cbd3d2"}
+{"description":"Personalized formatter","entry":"20240325T122303Z","modified":"20240325T132245Z","priority":"F","project":"nvim","status":"pending","uuid":"b112a28d-5540-4c9f-a510-ff5a65f6413e"}
+{"description":"Executing for Java","entry":"20240325T132341Z","modified":"20240325T132341Z","priority":"S","project":"nvim","status":"pending","uuid":"dbff3ced-3855-426e-9bb2-8f799398edc0"}
+{"description":"Executing for C","entry":"20240325T132412Z","modified":"20240325T132412Z","priority":"B","project":"nvim","status":"pending","uuid":"f2968bf2-e36b-4a7a-b5b5-d6eaa4295b26"}
+{"description":"Executing for Python","entry":"20240325T132416Z","modified":"20240325T132416Z","priority":"B","project":"nvim","status":"pending","uuid":"0f04f92a-324e-4292-bf9a-daaaaf0e31d5"}
+{"description":"Display keybind help","entry":"20240325T132554Z","modified":"20240325T132554Z","priority":"C","project":"nvim","status":"pending","uuid":"46193493-7c54-43da-a6a1-dd71bb027cbf"}
+{"description":"Port to windows","entry":"20240325T132659Z","modified":"20240325T132659Z","priority":"S","status":"pending","uuid":"edf38a1e-9183-4827-8bff-27ebfaaad40c"}
+{"description":"Port to desktop linux","entry":"20240325T132722Z","modified":"20240325T132722Z","priority":"C","status":"pending","uuid":"24ad0c7f-df06-4f5e-8af1-3cee52a33637"}
+{"description":"Make keybind to comment highlighted lines","entry":"20240325T132750Z","modified":"20240325T132750Z","priority":"B","project":"nvim","status":"pending","uuid":"bd77ee91-8993-4135-9358-4ac0248d1e19"}
+{"description":"Port to windows","entry":"20240325T132659Z","modified":"20240325T132758Z","priority":"S","project":"nvim","status":"pending","uuid":"edf38a1e-9183-4827-8bff-27ebfaaad40c"}
+{"description":"Port to desktop linux","entry":"20240325T132722Z","modified":"20240325T132805Z","priority":"C","project":"nvim","status":"pending","uuid":"24ad0c7f-df06-4f5e-8af1-3cee52a33637"}
+{"description":"Highlighting a text should highlight simmilar text","entry":"20240325T132854Z","modified":"20240325T132854Z","priority":"D","project":"nvim","status":"pending","uuid":"61c38079-5af9-4485-8122-2b8d06f363f6"}
+{"description":"Java documentation links should be displayed on hover","entry":"20240325T132939Z","modified":"20240325T132939Z","priority":"D","project":"nvim","status":"pending","uuid":"8a1d14c7-4d14-42df-8a2e-e27498dd79f5"}
+{"description":"Snipped for adding java documentation \/bin \/boot \/cdrom \/dev \/etc \/home \/lib \/lib32 \/lib64 \/libx32 \/lost+found \/media \/mnt \/opt \/proc \/root \/run \/sbin \/snap \/srv \/sys \/tmp \/usr \/var","entry":"20240325T133019Z","modified":"20240325T133019Z","priority":"C","project":"nvim","status":"pending","uuid":"bbbd83a1-776a-4b8b-abd7-778c2bbcf890"}
+{"description":"Snippet for adding java documentation on \/**","entry":"20240325T133019Z","modified":"20240325T133108Z","priority":"C","project":"nvim","status":"pending","uuid":"bbbd83a1-776a-4b8b-abd7-778c2bbcf890"}
+{"description":"Set debug keybinds","entry":"20240325T133141Z","modified":"20240325T133141Z","priority":"A","project":"nvim","status":"pending","uuid":"08563f09-04a7-4b1f-923e-c1cc4ad2741f"}
+{"description":"Make git repo of config","entry":"20240325T133221Z","modified":"20240325T133221Z","priority":"A","project":"nvim","status":"pending","uuid":"ab1d35c6-2dc8-421c-a4a0-dda013d0568f"}
+{"description":"Add script to make intallation easy on any pc","entry":"20240325T133309Z","modified":"20240325T133309Z","priority":"C","project":"nvim","status":"pending","uuid":"4f85968d-4b28-4647-a031-991427645101"}
+{"description":"Have git integration to see changes and differences","entry":"20240325T133349Z","modified":"20240325T133349Z","priority":"B","project":"nvim","status":"pending","uuid":"04883415-f894-41f1-86fb-de971a03e4a2"}
+{"description":"Make console window from vim","entry":"20240325T133422Z","modified":"20240325T133422Z","priority":"D","project":"nvim","status":"pending","uuid":"deb78848-8346-435f-9e64-736dfce4ea7c"}
+{"description":"See errors on minimap","entry":"20240325T133441Z","modified":"20240325T133441Z","priority":"C","project":"nvim","status":"pending","uuid":"08aa4dbc-97c2-484e-856c-b5d1a47af600"}
+{"description":"Set up changing windows keymaps","entry":"20240325T133511Z","modified":"20240325T133511Z","priority":"C","project":"nvim","status":"pending","uuid":"a1f50505-f275-43a6-902c-af1e707d8fbf"}
+{"description":"Set up having different windows open","entry":"20240325T133531Z","modified":"20240325T133531Z","priority":"C","project":"nvim","status":"pending","uuid":"d1f6a226-bebd-4681-84d1-015356d4cc12"}
+{"description":"Set up having different tabs open","entry":"20240325T133543Z","modified":"20240325T133543Z","priority":"C","project":"nvim","status":"pending","uuid":"d23bc273-e416-4379-b018-f7466ca3d05d"}
+{"description":"Put more cute info on home screen","entry":"20240325T133602Z","modified":"20240325T133602Z","priority":"F","project":"nvim","status":"pending","uuid":"48e66f16-e654-4e8e-91e5-cc5d45126f97"}
+{"description":"Configure bottom bar","entry":"20240325T133620Z","modified":"20240325T133620Z","priority":"D","project":"nvim","status":"pending","uuid":"2600c156-a5ea-4827-a5fc-cf0b8884203f"}
+{"description":"Cleanup unecessary plugins","entry":"20240325T144623Z","modified":"20240325T144623Z","priority":"F","project":"nvim","status":"pending","uuid":"17150bdb-6d4a-4148-8c7c-96950e18374d"}
+{"description":"Add codelens","entry":"20240325T145140Z","modified":"20240325T145140Z","priority":"D","project":"nvim","status":"pending","uuid":"f254fa28-e554-49d2-a356-93624feff9bb"}
+{"description":"Highlight line I'm on","entry":"20240326T134843Z","modified":"20240326T134843Z","priority":"D","project":"nvim","status":"pending","uuid":"b301de37-e2b2-4430-900c-faeea6b2f499"}
+{"description":"Testing for Java (junit)","end":"20240326T135000Z","entry":"20240325T122516Z","modified":"20240326T135000Z","priority":"S","project":"nvim","status":"completed","uuid":"2b0adb78-f908-44a2-a2d7-97ffba4f7184"}
+{"description":"Executing for Java","end":"20240326T135004Z","entry":"20240325T132341Z","modified":"20240326T135004Z","priority":"S","project":"nvim","status":"completed","uuid":"dbff3ced-3855-426e-9bb2-8f799398edc0"}
+{"description":"Make OwO command","entry":"20240326T135255Z","modified":"20240326T135255Z","priority":"A","project":"unix","status":"pending","uuid":"3e08f9e6-83d3-4a1e-950e-52f89efb1056"}
+{"description":"Automatically add ending brackets","entry":"20240326T141346Z","modified":"20240326T141346Z","priority":"C","project":"nvim","status":"pending","uuid":"5fd18281-d215-4766-ad0b-f0c78c8668fa"}
+{"description":"Make git repo of config","end":"20240326T161319Z","entry":"20240325T133221Z","modified":"20240326T161319Z","priority":"A","project":"nvim","status":"completed","uuid":"ab1d35c6-2dc8-421c-a4a0-dda013d0568f"}
