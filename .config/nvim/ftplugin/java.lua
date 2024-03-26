@@ -91,8 +91,8 @@ local config = {
 				updateBuildConfiguration = "interactive",
 				runtimes = {
 					{
-						name = "JavaSE-21",
-						path = "/usr/lib/jvm/java-21-openjdk-amd64",
+						--name = "JavaSE-21",
+						--path = "/usr/lib/jvm/java-21-openjdk-amd64",
 					},
 				},
 			},
