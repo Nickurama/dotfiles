@@ -89,12 +89,12 @@ local config = {
 			},
 			configuration = {
 				updateBuildConfiguration = "interactive",
-				runtimes = {
-					{
-						name = "JavaSE-21",
-						path = "/usr/lib/jvm/java-21-openjdk-amd64",
-					},
-				},
+				-- runtimes = {
+				-- 	{
+				-- 		name = "JavaSE-21",
+				-- 		path = "/usr/lib/jvm/java-21-openjdk-amd64",
+				-- 	},
+				-- },
 			},
 			referencesCodeLens = {
 				enabled = true,

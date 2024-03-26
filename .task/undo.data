@@ -194,3 +194,11 @@ time 1711469599
 old [description:"Make git repo of config" entry:"1711373541" modified:"1711373541" priority:"A" project:"nvim" status:"pending" uuid:"ab1d35c6-2dc8-421c-a4a0-dda013d0568f"]
 new [description:"Make git repo of config" end:"1711469599" entry:"1711373541" modified:"1711469599" priority:"A" project:"nvim" status:"completed" uuid:"ab1d35c6-2dc8-421c-a4a0-dda013d0568f"]
 ---
+time 1711482446
+old [description:"Make keybind to comment highlighted lines" entry:"1711373270" modified:"1711373270" priority:"B" project:"nvim" status:"pending" uuid:"bd77ee91-8993-4135-9358-4ac0248d1e19"]
+new [description:"Make keybind to comment highlighted lines" end:"1711482446" entry:"1711373270" modified:"1711482446" priority:"B" project:"nvim" status:"completed" uuid:"bd77ee91-8993-4135-9358-4ac0248d1e19"]
+---
+time 1711482685
+old [description:"Make console window from vim" entry:"1711373662" modified:"1711373662" priority:"D" project:"nvim" status:"pending" uuid:"deb78848-8346-435f-9e64-736dfce4ea7c"]
+new [description:"Make console window from vim" entry:"1711373662" modified:"1711482685" priority:"C" project:"nvim" status:"pending" uuid:"deb78848-8346-435f-9e64-736dfce4ea7c"]
+---

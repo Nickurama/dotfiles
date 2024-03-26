@@ -55,3 +55,5 @@
 {"description":"Make OwO command","entry":"20240326T135255Z","modified":"20240326T135255Z","priority":"A","project":"unix","status":"pending","uuid":"3e08f9e6-83d3-4a1e-950e-52f89efb1056"}
 {"description":"Automatically add ending brackets","entry":"20240326T141346Z","modified":"20240326T141346Z","priority":"C","project":"nvim","status":"pending","uuid":"5fd18281-d215-4766-ad0b-f0c78c8668fa"}
 {"description":"Make git repo of config","end":"20240326T161319Z","entry":"20240325T133221Z","modified":"20240326T161319Z","priority":"A","project":"nvim","status":"completed","uuid":"ab1d35c6-2dc8-421c-a4a0-dda013d0568f"}
+{"description":"Make keybind to comment highlighted lines","end":"20240326T194726Z","entry":"20240325T132750Z","modified":"20240326T194726Z","priority":"B","project":"nvim","status":"completed","uuid":"bd77ee91-8993-4135-9358-4ac0248d1e19"}
+{"description":"Make console window from vim","entry":"20240325T133422Z","modified":"20240326T195125Z","priority":"C","project":"nvim","status":"pending","uuid":"deb78848-8346-435f-9e64-736dfce4ea7c"}
