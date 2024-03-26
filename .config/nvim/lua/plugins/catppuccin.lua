@@ -18,8 +18,8 @@ return {
 			},
 			custom_highlights = function()
 				return {
-					NeoTreeGitIgnored = { fg = mocha.blue },
-					NeoTreeDotfile = { fg = mocha.blue },
+					--NeoTreeGitIgnored = { fg = mocha.blue },
+					--NeoTreeDotfile = { fg = mocha.blue },
 				}
 			end,
 		})
