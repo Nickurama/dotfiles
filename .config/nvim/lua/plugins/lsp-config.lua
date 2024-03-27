@@ -11,7 +11,7 @@ return {
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
 			require("mason-lspconfig").setup({
-				ensure_installed = { "lua_ls", "clangd", "jdtls", "pyright", "tsserver", "bashls", "bashls", },
+				ensure_installed = { "lua_ls", "clangd", "jdtls", "pyright", "bashls", },
 			})
 		end
 	},
@@ -20,35 +20,21 @@ return {
 		config = function()
 			local capabilities = require('cmp_nvim_lsp').default_capabilities() -- for cmp_nvim_lsp completions
 
-			local lspconfig = require("lspconfig")--.setup({})
+			local lspconfig = require("lspconfig")
 			lspconfig.lua_ls.setup({
 				capabilities = capabilities
 			})
 			lspconfig.clangd.setup({
 				capabilities = capabilities
 			})
-			--lspconfig.jdtls.setup({})
 			lspconfig.pyright.setup({
-				capabilities = capabilities
-			})
-			lspconfig.tsserver.setup({
-				capabilities = capabilities
+				capabilities = capabilities,
 			})
 			lspconfig.bashls.setup({
 				capabilities = capabilities
 			})
-			--[[ lspconfig.java_language_server.setup({
-				cmd = { "java-language-server" },
-				handlers = {
-					['client/registerCapability'] = function(err, result, ctx, config)
-						local registration = {
-							registrations = { result },
-						}
-						return vim.lsp.handlers['client/registerCapability'](err, registration, ctx, config)
-					end
-				},
-			}) ]]--
 
+			-- keymaps
 			vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
 			vim.keymap.set('n', '<leader>gd', vim.lsp.buf.definition, {})
 			vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, {})

@@ -20,3 +20,15 @@ vim.keymap.set("n", "<leader>Y", "\"+Y")
 vim.keymap.set("n", "<leader>p", "\"+p")
 vim.keymap.set("v", "<leader>p", "\"+p")
 vim.keymap.set("n", "<leader>P", "\"+P")
+
+-- make split
+-- vim.keymap.set("n", "<leader>sk", ":leftabove split<CR>")
+-- vim.keymap.set("n", "<leader>sj", ":rightbelow split<CR>")
+-- vim.keymap.set("n", "<leader>sh", ":leftabove vsplit<CR>")
+-- vim.keymap.set("n", "<leader>sl", ":rightbelow vsplit<CR>")
+
+-- change split
+vim.keymap.set("n", "<C-k>", "<C-w><Up>")
+vim.keymap.set("n", "<C-j>", "<C-w><Down>")
+vim.keymap.set("n", "<C-h>", "<C-w><Left>")
+vim.keymap.set("n", "<C-l>", "<C-w><Right>")
