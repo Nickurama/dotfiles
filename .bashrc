@@ -119,6 +119,17 @@ fi
 
 
 
+
+# for the Node Version Manager (nvm)
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+
+
+
+
 # OwO this is my domain now >:3
 
 # Change umask to make directory sharing easier
@@ -167,3 +178,7 @@ export PATH=$PATH:~/.goodies/custom_path
 
 # dotfiles alias
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# remaps caps to shift
+gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape_shifted_capslock']"
+setxkbmap -option caps:escape_shifted_capslock

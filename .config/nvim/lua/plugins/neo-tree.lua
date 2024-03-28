@@ -1,3 +1,5 @@
+local opts = { silent = true }
+
 return {
 	"nvim-neo-tree/neo-tree.nvim",
 	branch = "v3.x",
@@ -7,7 +9,7 @@ return {
 		"MunifTanjim/nui.nvim",
 	},
 	config = function()
-		vim.keymap.set("n", "<C-n>", ":Neotree filesystem reveal left<CR>")
+		vim.keymap.set("n", "<C-n>", ":Neotree filesystem reveal left<CR>", opts )
 		require("neo-tree").setup({
 			default_component_configs = {
 				git_status = {

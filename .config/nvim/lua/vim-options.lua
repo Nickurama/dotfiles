@@ -1,3 +1,5 @@
+local silent = { silent = true }
+
 vim.cmd("set shiftwidth=4")
 vim.cmd("set tabstop=4")
 vim.g.mapleader = " "
@@ -8,7 +10,9 @@ vim.opt.termguicolors = true
 vim.opt.nu = true -- line numbers
 vim.opt.relativenumber = true
 
-vim.wo.wrap = false
+vim.wo.wrap = false -- wrap around text
+
+vim.g.neovide_scale_factor = 10
 
 -- alt + arrow keys for vscode => V mode + shift-J/K
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
@@ -36,8 +40,7 @@ vim.keymap.set("n", "<C-h>", "<C-w><Left>")
 vim.keymap.set("n", "<C-l>", "<C-w><Right>")
 
 -- turn off highlighting
-
-vim.keymap.set("n", "<leader>s/", ":noh<CR>")
+vim.keymap.set("n", "<leader>s/", ":noh<CR>", silent)
 
 -- vim diagnostics
 vim.keymap.set("n", "<leader>sd", vim.diagnostic.open_float, {})
