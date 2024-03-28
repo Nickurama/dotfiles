@@ -376,3 +376,31 @@ new [description:"Set up having different tabs open" end:"1711631785" entry:"171
 time 1711654507
 new [description:"Add\/remove indentation on a block of text with keybind" entry:"1711654507" modified:"1711654507" priority:"C" project:"nvim" status:"pending" uuid:"4a96ca1c-6990-46da-af5f-3464194d3c38"]
 ---
+time 1711667330
+old [description:"Display keybind help" entry:"1711373154" modified:"1711373154" priority:"C" project:"nvim" status:"pending" uuid:"46193493-7c54-43da-a6a1-dd71bb027cbf"]
+new [description:"Display keybind help" end:"1711667330" entry:"1711373154" modified:"1711667330" priority:"C" project:"nvim" status:"completed" uuid:"46193493-7c54-43da-a6a1-dd71bb027cbf"]
+---
+time 1711667342
+old [description:"Snippet for adding java documentation on \/**" entry:"1711373419" modified:"1711373468" priority:"C" project:"nvim" status:"pending" uuid:"bbbd83a1-776a-4b8b-abd7-778c2bbcf890"]
+new [description:"Snippet for adding java documentation on \/**" end:"1711667342" entry:"1711373419" modified:"1711667342" priority:"C" project:"nvim" status:"completed" uuid:"bbbd83a1-776a-4b8b-abd7-778c2bbcf890"]
+---
+time 1711667348
+old [description:"Make console window from vim" entry:"1711373662" modified:"1711482685" priority:"C" project:"nvim" status:"pending" uuid:"deb78848-8346-435f-9e64-736dfce4ea7c"]
+new [description:"Make console window from vim" end:"1711667348" entry:"1711373662" modified:"1711667348" priority:"C" project:"nvim" status:"completed" uuid:"deb78848-8346-435f-9e64-736dfce4ea7c"]
+---
+time 1711667351
+old [description:"Automatically add ending brackets" entry:"1711462426" modified:"1711462426" priority:"C" project:"nvim" status:"pending" uuid:"5fd18281-d215-4766-ad0b-f0c78c8668fa"]
+new [description:"Automatically add ending brackets" end:"1711667351" entry:"1711462426" modified:"1711667351" priority:"C" project:"nvim" status:"completed" uuid:"5fd18281-d215-4766-ad0b-f0c78c8668fa"]
+---
+time 1711667360
+old [description:"Add\/remove indentation on a block of text with keybind" entry:"1711654507" modified:"1711654507" priority:"C" project:"nvim" status:"pending" uuid:"4a96ca1c-6990-46da-af5f-3464194d3c38"]
+new [description:"Add\/remove indentation on a block of text with keybind" end:"1711667360" entry:"1711654507" modified:"1711667360" priority:"C" project:"nvim" status:"completed" uuid:"4a96ca1c-6990-46da-af5f-3464194d3c38"]
+---
+time 1711667363
+old [description:"Highlighting a text should highlight simmilar text" entry:"1711373334" modified:"1711373334" priority:"D" project:"nvim" status:"pending" uuid:"61c38079-5af9-4485-8122-2b8d06f363f6"]
+new [description:"Highlighting a text should highlight simmilar text" end:"1711667363" entry:"1711373334" modified:"1711667363" priority:"D" project:"nvim" status:"completed" uuid:"61c38079-5af9-4485-8122-2b8d06f363f6"]
+---
+time 1711667367
+old [description:"Highlight line I'm on" entry:"1711460923" modified:"1711460923" priority:"D" project:"nvim" status:"pending" uuid:"b301de37-e2b2-4430-900c-faeea6b2f499"]
+new [description:"Highlight line I'm on" end:"1711667367" entry:"1711460923" modified:"1711667367" priority:"D" project:"nvim" status:"completed" uuid:"b301de37-e2b2-4430-900c-faeea6b2f499"]
+---

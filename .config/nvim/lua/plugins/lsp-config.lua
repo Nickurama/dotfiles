@@ -43,10 +43,10 @@ return {
 			})
 
 			-- keymaps
-			vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
-			vim.keymap.set('n', '<leader>gd', vim.lsp.buf.definition, {})
-			vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, {})
-			vim.keymap.set({ 'n', 'v' }, '<leader>ca', vim.lsp.buf.code_action, {})
+			vim.keymap.set('n', 'K', vim.lsp.buf.hover, { noremap = true })
+			vim.keymap.set('n', '<leader>gd', vim.lsp.buf.definition, { noremap = true})
+			vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, { noremap = true })
+			vim.keymap.set({ 'n', 'v' }, '<leader>ca', vim.lsp.buf.code_action, { noremap = true })
 		end
 	},
 }

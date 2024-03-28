@@ -47,3 +47,18 @@ vim.keymap.set("n", "<leader>sd", vim.diagnostic.open_float, {})
 
 -- open bew buffer
 vim.keymap.set("n", "<A-o>", ":enew<CR>", silent)
+
+-- terminal
+local opts = { noremap = true, silent = true }
+vim.keymap.set("t", "<ESC>", [[<C-\><C-n>]], opts) -- exit terminal mode
+vim.keymap.set("t", "<C-h>", [[<Cmd>wincmd h<CR>]], opts)
+vim.keymap.set("t", "<C-j>", [[<Cmd>wincmd j<CR>]], opts)
+vim.keymap.set("t", "<C-k>", [[<Cmd>wincmd k<CR>]], opts)
+vim.keymap.set("t", "<C-l>", [[<Cmd>wincmd l<CR>]], opts)
+vim.keymap.set("t", "<C-w>", [[<C-\><C-n><C-w>]], opts)
+
+-- indentation
+vim.keymap.set("n", "<Tab>", ">>")
+vim.keymap.set("n", "<S-Tab>", "<<")
+vim.keymap.set("v", "<Tab>", "><Esc>gv")
+vim.keymap.set("v", "<S-Tab>", "<<Esc>gv")

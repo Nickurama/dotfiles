@@ -111,7 +111,7 @@ return {
 			end
 
 			-- keybinds
-			vim.keymap.set("n", "<Leader>b", dap.toggle_breakpoint, {})
+			vim.keymap.set("n", "<Leader>db", dap.toggle_breakpoint, {})
 			vim.keymap.set("n", "<Leader>dc", dap.continue, {})
 			vim.keymap.set("n", "<Leader>ds", dap.step_over, {})
 			vim.keymap.set("n", "<Leader>di", dap.step_into, {})
