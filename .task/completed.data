@@ -1,3 +1,8 @@
+[description:"Install kitty" end:"1711629089" entry:"1711625623" modified:"1711629089" priority:"B" project:"unix" status:"completed" uuid:"b0554f5b-b22a-49b9-b21d-bd2e862dc670"]
+[description:"Configure kitty" end:"1711629093" entry:"1711625695" modified:"1711629093" priority:"B" project:"unix" status:"completed" uuid:"8d2c6d52-58ab-4f2a-80a0-f6e802de145f"]
+[description:"Install zsh" end:"1711629085" entry:"1711625843" modified:"1711629085" priority:"B" project:"unix" status:"completed" uuid:"aaff02f7-4573-4e2e-913b-d96f49a04f21"]
+[description:"Add kitty config to dotfiles" end:"1711629077" entry:"1711625874" modified:"1711629077" priority:"A" project:"unix" status:"completed" uuid:"725e9266-4c3f-4a05-98df-428e3bfe12c6"]
+[description:"Make zsh pretty" end:"1711626310" entry:"1711625927" modified:"1711626310" priority:"C" project:"unix" status:"deleted" uuid:"240bfc7a-421d-4322-98c8-2bb337455b4b"]
 [description:"Exceptions show off-monitor" end:"1711579698" entry:"1711369341" modified:"1711579698" priority:"D" project:"nvim" status:"deleted" uuid:"6645a4b3-51f6-4813-91d7-df1135cbd3d2"]
 [description:"Java documentation links should be displayed on hover" end:"1711579706" entry:"1711373379" modified:"1711579706" priority:"D" project:"nvim" status:"deleted" uuid:"8a1d14c7-4d14-42df-8a2e-e27498dd79f5"]
 [description:"Add script to make intallation easy on any pc" end:"1711579678" entry:"1711373589" modified:"1711579678" priority:"C" project:"nvim" status:"deleted" uuid:"4f85968d-4b28-4647-a031-991427645101"]

@@ -346,3 +346,26 @@ new [description:"Learn zsh" entry:"1711625916" modified:"1711625916" priority:"
 time 1711625927
 new [description:"Make zsh pretty" entry:"1711625927" modified:"1711625927" priority:"C" project:"unix" status:"pending" uuid:"240bfc7a-421d-4322-98c8-2bb337455b4b"]
 ---
+time 1711626293
+new [description:"Make zsh pretty" entry:"1711626293" modified:"1711626293" priority:"D" project:"unix" status:"pending" uuid:"30342130-013a-46a6-95c5-589244b62b7b"]
+---
+time 1711626310
+old [description:"Make zsh pretty" entry:"1711625927" modified:"1711625927" priority:"C" project:"unix" status:"pending" uuid:"240bfc7a-421d-4322-98c8-2bb337455b4b"]
+new [description:"Make zsh pretty" end:"1711626310" entry:"1711625927" modified:"1711626310" priority:"C" project:"unix" status:"deleted" uuid:"240bfc7a-421d-4322-98c8-2bb337455b4b"]
+---
+time 1711629077
+old [description:"Add kitty config to dotfiles" entry:"1711625874" modified:"1711625874" priority:"A" project:"unix" status:"pending" uuid:"725e9266-4c3f-4a05-98df-428e3bfe12c6"]
+new [description:"Add kitty config to dotfiles" end:"1711629077" entry:"1711625874" modified:"1711629077" priority:"A" project:"unix" status:"completed" uuid:"725e9266-4c3f-4a05-98df-428e3bfe12c6"]
+---
+time 1711629085
+old [description:"Install zsh" entry:"1711625843" modified:"1711625892" priority:"B" project:"unix" status:"pending" uuid:"aaff02f7-4573-4e2e-913b-d96f49a04f21"]
+new [description:"Install zsh" end:"1711629085" entry:"1711625843" modified:"1711629085" priority:"B" project:"unix" status:"completed" uuid:"aaff02f7-4573-4e2e-913b-d96f49a04f21"]
+---
+time 1711629089
+old [description:"Install kitty" entry:"1711625623" modified:"1711625662" priority:"B" project:"unix" status:"pending" uuid:"b0554f5b-b22a-49b9-b21d-bd2e862dc670"]
+new [description:"Install kitty" end:"1711629089" entry:"1711625623" modified:"1711629089" priority:"B" project:"unix" status:"completed" uuid:"b0554f5b-b22a-49b9-b21d-bd2e862dc670"]
+---
+time 1711629093
+old [description:"Configure kitty" entry:"1711625695" modified:"1711625728" priority:"B" project:"unix" status:"pending" uuid:"8d2c6d52-58ab-4f2a-80a0-f6e802de145f"]
+new [description:"Configure kitty" end:"1711629093" entry:"1711625695" modified:"1711629093" priority:"B" project:"unix" status:"completed" uuid:"8d2c6d52-58ab-4f2a-80a0-f6e802de145f"]
+---
