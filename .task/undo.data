@@ -369,3 +369,10 @@ time 1711629093
 old [description:"Configure kitty" entry:"1711625695" modified:"1711625728" priority:"B" project:"unix" status:"pending" uuid:"8d2c6d52-58ab-4f2a-80a0-f6e802de145f"]
 new [description:"Configure kitty" end:"1711629093" entry:"1711625695" modified:"1711629093" priority:"B" project:"unix" status:"completed" uuid:"8d2c6d52-58ab-4f2a-80a0-f6e802de145f"]
 ---
+time 1711631785
+old [description:"Set up having different tabs open" entry:"1711373743" modified:"1711373743" priority:"C" project:"nvim" status:"pending" uuid:"d23bc273-e416-4379-b018-f7466ca3d05d"]
+new [description:"Set up having different tabs open" end:"1711631785" entry:"1711373743" modified:"1711631785" priority:"C" project:"nvim" status:"completed" uuid:"d23bc273-e416-4379-b018-f7466ca3d05d"]
+---
+time 1711654507
+new [description:"Add\/remove indentation on a block of text with keybind" entry:"1711654507" modified:"1711654507" priority:"C" project:"nvim" status:"pending" uuid:"4a96ca1c-6990-46da-af5f-3464194d3c38"]
+---

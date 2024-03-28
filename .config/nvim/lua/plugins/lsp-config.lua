@@ -1,4 +1,12 @@
 return {
+	-- {
+	-- 	-- must be setup before lspconfig
+	-- 	"folke/neodev.nvim",
+	-- 	opts = {},
+	-- 	config = function ()
+	-- 		require("neodev").setup()
+	-- 	end
+	-- },
 	{
 		"williamboman/mason.nvim",
 		config = function()

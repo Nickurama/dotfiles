@@ -1,0 +1,23 @@
+return {
+	-- 'akinsho/bufferline.nvim',
+	-- version = "*",
+	-- dependencies = {
+	-- 	'nvim-tree/nvim-web-devicons'
+	-- },
+	-- config = function()
+	-- 	require("bufferline").setup()
+	--
+	-- 	-- keybinds
+	-- 	local opts = { noremap = true, silent = true }
+	--
+	-- 	vim.api.nvim_set_keymap('n', '<C-1>', '<Cmd>BufferLineGoToBuffer 1<CR>', opts)
+	-- 	vim.api.nvim_set_keymap('n', '<C-2>', '<Cmd>BufferLineGoToBuffer 2<CR>', opts)
+	-- 	vim.api.nvim_set_keymap('n', '<C-3>', '<Cmd>BufferLineGoToBuffer 3<CR>', opts)
+	-- 	vim.api.nvim_set_keymap('n', '<C-4>', '<Cmd>BufferLineGoToBuffer 4<CR>', opts)
+	-- 	vim.api.nvim_set_keymap('n', '<C-5>', '<Cmd>BufferLineGoToBuffer 5<CR>', opts)
+	-- 	vim.api.nvim_set_keymap('n', '<C-6>', '<Cmd>BufferLineGoToBuffer 6<CR>', opts)
+	-- 	vim.api.nvim_set_keymap('n', '<C-7>', '<Cmd>BufferLineGoToBuffer 7<CR>', opts)
+	-- 	vim.api.nvim_set_keymap('n', '<C-8>', '<Cmd>BufferLineGoToBuffer 8<CR>', opts)
+	-- 	vim.api.nvim_set_keymap('n', '<C-9>', '<Cmd>BufferLineGoToBuffer 9<CR>', opts)
+	-- end
+}

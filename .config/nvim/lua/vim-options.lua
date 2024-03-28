@@ -7,12 +7,12 @@ vim.opt.smartindent = true
 
 vim.opt.termguicolors = true
 
+vim.opt.cursorline = true
+
 vim.opt.nu = true -- line numbers
 vim.opt.relativenumber = true
 
 vim.wo.wrap = false -- wrap around text
-
-vim.g.neovide_scale_factor = 10
 
 -- alt + arrow keys for vscode => V mode + shift-J/K
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
@@ -44,3 +44,6 @@ vim.keymap.set("n", "<leader>s/", ":noh<CR>", silent)
 
 -- vim diagnostics
 vim.keymap.set("n", "<leader>sd", vim.diagnostic.open_float, {})
+
+-- open bew buffer
+vim.keymap.set("n", "<A-o>", ":enew<CR>", silent)

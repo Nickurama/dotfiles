@@ -7,22 +7,40 @@
 
 -- workspace dir
 
-local function directory_exists(path)
-	local f = io.popen("cd " .. path)
-	if f == nil then
-		return false
+-- local function directory_exists(path)
+-- 	local f = io.popen("cd " .. path)
+-- 	if f == nil then
+-- 		return false
+-- 	end
+-- 	local ff = f:read("*all")
+-- 	if ff:find("ItemNotFoundException") then
+-- 		return false
+-- 	else
+-- 		return true
+-- 	end
+-- end
+
+--- Check if a file or directory exists in this path
+local function exists(file)
+	local ok, err, code = os.rename(file, file)
+	if not ok then
+		if code == 13 then
+			-- Permission denied, but it exists
+			return true
+		end
 	end
-	local ff = f:read("*all")
-	if ff:find("ItemNotFoundException") then
-		return false
-	else
-		return true
-	end
+	return ok, err
+end
+
+--- Check if a directory exists in this path
+local function isdir(path)
+	-- "/" works on both Unix and Windows
+	return exists(path .. "/")
 end
 
 local project_name = vim.fn.fnamemodify(vim.fn.getcwd(), ":p:h:t")
 local workspace_dir = vim.fn.stdpath("data") .. "/site/java/workspace-root/" .. project_name
-if directory_exists(workspace_dir) then
+if isdir(workspace_dir) then
 else
 	os.execute("mkdir " .. workspace_dir)
 end

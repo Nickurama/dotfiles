@@ -104,3 +104,5 @@
 {"description":"Install zsh","end":"20240328T123125Z","entry":"20240328T113723Z","modified":"20240328T123125Z","priority":"B","project":"unix","status":"completed","uuid":"aaff02f7-4573-4e2e-913b-d96f49a04f21"}
 {"description":"Install kitty","end":"20240328T123129Z","entry":"20240328T113343Z","modified":"20240328T123129Z","priority":"B","project":"unix","status":"completed","uuid":"b0554f5b-b22a-49b9-b21d-bd2e862dc670"}
 {"description":"Configure kitty","end":"20240328T123133Z","entry":"20240328T113455Z","modified":"20240328T123133Z","priority":"B","project":"unix","status":"completed","uuid":"8d2c6d52-58ab-4f2a-80a0-f6e802de145f"}
+{"description":"Set up having different tabs open","end":"20240328T131625Z","entry":"20240325T133543Z","modified":"20240328T131625Z","priority":"C","project":"nvim","status":"completed","uuid":"d23bc273-e416-4379-b018-f7466ca3d05d"}
+{"description":"Add\/remove indentation on a block of text with keybind","entry":"20240328T193507Z","modified":"20240328T193507Z","priority":"C","project":"nvim","status":"pending","uuid":"4a96ca1c-6990-46da-af5f-3464194d3c38"}
