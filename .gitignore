@@ -5,6 +5,7 @@
 !.gitignore
 !.bashrc
 !.taskrc
+!.profile
 
 #include folders
 !/.task/
