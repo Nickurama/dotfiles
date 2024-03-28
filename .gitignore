@@ -4,6 +4,7 @@
 #include
 !.gitignore
 !.bashrc
+!.zshrc
 !.taskrc
 !.profile
 
