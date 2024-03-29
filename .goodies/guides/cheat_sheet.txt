@@ -1,0 +1,132 @@
+---Nice to know---
+date -> display date
+cal -> display calendar
+reboot -> restarts the computer
+poweroff -> shuts down the computer
+halt -> halts the computer
+shutdown -> reboots/poweroffs/halts the computer at a given time (hh:mm or +m or now (+0))
+
+
+
+---Chapter 3 (exploring)---
+ls -> list directory contents
+file -> see file type
+less -> see file contents
+
+
+
+---Chapter 4 (files/directories)---
+cp -> copy
+mv -> move/rename
+mkdir -> make directory
+rm -> remove
+ln -> create hard or symbolic links (-s)
+
+
+
+---Chapter 5 (commands)---
+which -> display which executable program is executed
+help/man -> help for shell builtin documentation, man for the rest
+alias -> make alias of command (don't put any arguments to see all aliases)
+
+
+
+---Chapter 6 (Redirection)---
+cat -> concatenate files
+sort -> sorts text (-r reverses)
+uniq -> removes repeated lines
+grep -> print lines matching a pattern
+wc -> word count
+
+> -> redirect standard output to file (2> -> standard error)
+< -> redirect file to standard input
+>> -> append to file
+| -> send output to input reading command
+
+/dev/null -> dump
+
+
+
+---Chapter 7 (Expansions)---
+(string)*(string) -> pathname expansion
+$((1+1)) -> arithmetic expansion
+{1..5..2} -> brace expansion
+$USER -> parameter expansion (value of variables)
+$(ls) -> command substitution
+
+"" -> stops some expansions
+'' -> stops all expansions
+\ -> escape character (allows next character not to suffer expansion)
+
+
+
+---Chapter 8 (Advanced keyboard tricks)---
+history -> view command history (use ! for history expansion, ex "!1" means the first command)
+
+
+
+---Chapter 9 (Permissions)---
+chmod -> change mode (change permissions)
+-[u/o/g][+/-/=][r/w/x] ([user/others/group][add/remove/set][read/write/execute])
+-or in octal (rwx=111=7)
+
+su -> run terminal as a different user
+sudo -> execute command as a different user
+chown -> change owner
+chgrp -> change group
+passwd -> change password
+
+
+
+---Chapter 10 (Processes)---
+& after process -> execute in background (as child of the terminal)
+jobs -> list jobs (terminal children)
+bg -> place a job in background (use job id with %, ex "%1" means job 1)
+fg -> place a job in foreground
+
+ps -> list processes (terminal children)
+ps x -> list user processes
+ps aux -> list all processes
+
+top -> dynamic ps
+pstree -> ps but in a tree format
+vmstat -> system resource usage
+tload/xload -> system load over time
+
+kill -> send signal to process
+-INT/TERM -> Interrupt/Terminate the process (close)
+-TSTP -> Stop the process (pause)
+
+-STOP -> Completely stop the program
+-KILL -> Completely kill the program
+-CONT -> Continue execution
+
+killall -> kills all the processes with the given name
+
+
+
+---Chapter 11 (Environment)---
+set -> see shell and environment variables
+printenv -> see environment variables / print a variable
+source ~/.bashrc -> reload bash config
+
+---Chapter 14 (Package Management)---
+apt-get -> high level packaging tool
+apt-get update -> synchronize packages
+apt-cache search -> search for a package in the package manager
+apt-get install -> install a package
+apt-get remove -> uninstall a package
+apt-get upgrade -> install updates to a package (after knowing about them with apt-get update)
+apt-cache show -> see description of package
+
+dpkg -> low level packaging tool
+dpkg -i -> install package from non-repository site / also updates it
+dpkg -l -> all installed packages
+dpkg -s -> search if a package is installed
+
+---Chapter 15 (Storage)---
+mount -> see mounted file systems / mount a file system
+unmount -> unmount a file system
+fdkisk -> manage partitions of a file system
+mkfs -> make a file system
+dd -> copy data bytes from a file system (CAREFUL!)
