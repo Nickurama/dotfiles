@@ -1,3 +1,6 @@
+[description:"Port to desktop linux" end:"1711690383" entry:"1711373242" modified:"1711690383" priority:"C" project:"nvim" status:"completed" uuid:"24ad0c7f-df06-4f5e-8af1-3cee52a33637"]
+[description:"Learn zsh" end:"1711690375" entry:"1711625916" modified:"1711690375" priority:"B" project:"unix" status:"completed" uuid:"f8658870-3de9-4b1a-946f-bbf6e82142c3"]
+[description:"Make zsh pretty" end:"1711690395" entry:"1711626293" modified:"1711690395" priority:"D" project:"unix" status:"completed" uuid:"30342130-013a-46a6-95c5-589244b62b7b"]
 [description:"Display keybind help" end:"1711667330" entry:"1711373154" modified:"1711667330" priority:"C" project:"nvim" status:"completed" uuid:"46193493-7c54-43da-a6a1-dd71bb027cbf"]
 [description:"Highlighting a text should highlight simmilar text" end:"1711667363" entry:"1711373334" modified:"1711667363" priority:"D" project:"nvim" status:"completed" uuid:"61c38079-5af9-4485-8122-2b8d06f363f6"]
 [description:"Snippet for adding java documentation on \/**" end:"1711667342" entry:"1711373419" modified:"1711667342" priority:"C" project:"nvim" status:"completed" uuid:"bbbd83a1-776a-4b8b-abd7-778c2bbcf890"]

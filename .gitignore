@@ -18,6 +18,7 @@
 !/.config/nvim/**
 !/.config/kitty/
 !/.config/kitty/**
+!/.config/starship.toml
 
 !/.goodies/
 !/.goodies/**

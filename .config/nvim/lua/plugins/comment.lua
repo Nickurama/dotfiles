@@ -6,13 +6,13 @@ return {
 			opleader = { line = "<leader>/" },
 			mappings = {
 				---Operator-pending mapping; `gcc` `gbc` `gc[count]{motion}` `gb[count]{motion}`
-				basic = false,
+				basic = true,
 				---Extra mapping; `gco`, `gcO`, `gcA`
 				extra = false,
 			},
 		})
 		local api = require("Comment.api")
-		vim.keymap.set("n", "<leader>/", api.toggle.linewise.current, { noremap = true })
-		----vim.keymap.set('v', '<leader>/', 'gc')
+		vim.keymap.set("n", "<leader>/", api.toggle.linewise.current, {  })
+		-- vim.keymap.set('v', '<leader>/', 'gcc')
 	end,
 }

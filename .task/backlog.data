@@ -113,3 +113,6 @@
 {"description":"Add\/remove indentation on a block of text with keybind","end":"20240328T230920Z","entry":"20240328T193507Z","modified":"20240328T230920Z","priority":"C","project":"nvim","status":"completed","uuid":"4a96ca1c-6990-46da-af5f-3464194d3c38"}
 {"description":"Highlighting a text should highlight simmilar text","end":"20240328T230923Z","entry":"20240325T132854Z","modified":"20240328T230923Z","priority":"D","project":"nvim","status":"completed","uuid":"61c38079-5af9-4485-8122-2b8d06f363f6"}
 {"description":"Highlight line I'm on","end":"20240328T230927Z","entry":"20240326T134843Z","modified":"20240328T230927Z","priority":"D","project":"nvim","status":"completed","uuid":"b301de37-e2b2-4430-900c-faeea6b2f499"}
+{"description":"Learn zsh","end":"20240329T053255Z","entry":"20240328T113836Z","modified":"20240329T053255Z","priority":"B","project":"unix","status":"completed","uuid":"f8658870-3de9-4b1a-946f-bbf6e82142c3"}
+{"description":"Port to desktop linux","end":"20240329T053303Z","entry":"20240325T132722Z","modified":"20240329T053303Z","priority":"C","project":"nvim","status":"completed","uuid":"24ad0c7f-df06-4f5e-8af1-3cee52a33637"}
+{"description":"Make zsh pretty","end":"20240329T053315Z","entry":"20240328T114453Z","modified":"20240329T053315Z","priority":"D","project":"unix","status":"completed","uuid":"30342130-013a-46a6-95c5-589244b62b7b"}

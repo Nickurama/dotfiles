@@ -404,3 +404,15 @@ time 1711667367
 old [description:"Highlight line I'm on" entry:"1711460923" modified:"1711460923" priority:"D" project:"nvim" status:"pending" uuid:"b301de37-e2b2-4430-900c-faeea6b2f499"]
 new [description:"Highlight line I'm on" end:"1711667367" entry:"1711460923" modified:"1711667367" priority:"D" project:"nvim" status:"completed" uuid:"b301de37-e2b2-4430-900c-faeea6b2f499"]
 ---
+time 1711690375
+old [description:"Learn zsh" entry:"1711625916" modified:"1711625916" priority:"B" project:"unix" status:"pending" uuid:"f8658870-3de9-4b1a-946f-bbf6e82142c3"]
+new [description:"Learn zsh" end:"1711690375" entry:"1711625916" modified:"1711690375" priority:"B" project:"unix" status:"completed" uuid:"f8658870-3de9-4b1a-946f-bbf6e82142c3"]
+---
+time 1711690383
+old [description:"Port to desktop linux" entry:"1711373242" modified:"1711373285" priority:"C" project:"nvim" status:"pending" uuid:"24ad0c7f-df06-4f5e-8af1-3cee52a33637"]
+new [description:"Port to desktop linux" end:"1711690383" entry:"1711373242" modified:"1711690383" priority:"C" project:"nvim" status:"completed" uuid:"24ad0c7f-df06-4f5e-8af1-3cee52a33637"]
+---
+time 1711690395
+old [description:"Make zsh pretty" entry:"1711626293" modified:"1711626293" priority:"D" project:"unix" status:"pending" uuid:"30342130-013a-46a6-95c5-589244b62b7b"]
+new [description:"Make zsh pretty" end:"1711690395" entry:"1711626293" modified:"1711690395" priority:"D" project:"unix" status:"completed" uuid:"30342130-013a-46a6-95c5-589244b62b7b"]
+---

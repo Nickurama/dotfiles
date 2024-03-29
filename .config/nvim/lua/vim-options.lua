@@ -2,7 +2,7 @@ local silent = { silent = true }
 
 vim.cmd("set shiftwidth=4")
 vim.cmd("set tabstop=4")
-vim.g.mapleader = " "
+vim.g.mapleader = ' '
 vim.opt.smartindent = true
 
 vim.opt.termguicolors = true
