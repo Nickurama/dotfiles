@@ -7,6 +7,8 @@
 !.zshrc
 !.taskrc
 !.profile
+!.hledger.journal
+!.calories.db
 
 #include folders
 !/.task/

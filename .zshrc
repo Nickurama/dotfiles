@@ -119,7 +119,8 @@ source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
 # for the Node Version Manager (nvm)
-export NVM_DIR="$HOME/.nvm"
+export NVM_DIR="/opt/apache-maven-*/bin"
+# export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
@@ -190,3 +191,6 @@ setxkbmap -option caps:escape_shifted_capslock
 # starship theme
 eval "$(starship init zsh)"
 
+
+# add python pip apps to path
+export PATH="$PATH:/home/$USER/.local/bin"

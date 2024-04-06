@@ -31,7 +31,7 @@ fi
 
 if [ -z $class ]
 then
-	java -jar $junit --class-path $out_dir --scan-class-path
+	java -jar $junit execute --class-path $out_dir --scan-class-path
 else
 	regex=$(echo "^.*${test_suffix}$")
 	if [[ $class =~ $regex ]]

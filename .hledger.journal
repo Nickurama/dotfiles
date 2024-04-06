@@ -1,0 +1,60 @@
+; journal created 2024-04-06 by hledger
+
+account assets			; money you own.
+account liabilities		; money you owe.
+account income			; income.
+account expenses		; expenses.
+account equity			; misc
+
+2024-04-01 set initial assets balance
+	assets:bank:montepio  				171.23 EUR
+	assets:cash							44 EUR
+	equity:opening balances
+
+2024-04-01 ebay server
+	expenses:extra						132.80 EUR
+	assets:bank:montepio
+
+2024-04-01 kebab
+	expenses:food:restaurant:kebab		6.00 EUR
+	assets:bank:montepio
+
+2024-04-01 monster
+	expenses:food:juice					1.99 EUR
+	assets:bank:montepio
+
+2024-04-02 juices
+	expenses:food:juice					3.58 EUR
+	assets:bank:montepio
+
+2024-04-02 monster juices
+	expenses:food:juice					1.99 EUR
+	assets:bank:montepio
+
+2024-04-04 mom payment
+	assets:bank:montepio				320.00 EUR
+	income:allowance
+
+2024-04-04 lazer hair removal
+	expenses:vanity:lazer				77.00 EUR
+	expenses:travel:uber				5.39 EUR
+	expenses:travel:uber				3.21 EUR
+	assets:bank:montepio
+
+2024-04-04 food auchan
+	expenses:travel:uber				3.50 EUR
+	expenses:food:juice					2.74 EUR
+	expenses:food						29.74 EUR
+	expenses:avoidable					0.60 EUR
+	expenses:medicine					6.49 EUR
+	expenses:stationery					1.78 EUR
+	assets:bank:montepio
+
+2024-04-05 juices
+	expenses:food:juice					0.99 EUR
+	assets:bank:montepio
+
+2024-04-05 monster juices
+	expenses:food:juice					3.98 EUR
+	assets:cash
+

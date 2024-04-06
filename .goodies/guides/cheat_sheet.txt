@@ -130,3 +130,18 @@ unmount -> unmount a file system
 fdkisk -> manage partitions of a file system
 mkfs -> make a file system
 dd -> copy data bytes from a file system (CAREFUL!)
+
+---Chapter 16 (Networking)---
+ping -> ping host and display metrics (packet loss!)
+tracepath -> check packet path
+ip -> all kinds of networking (up -> has internet)
+netstat -> all kinds of networking (-r has routing tables, -ie has interfaces)
+ftp -> ftp connection (lftp is better)
+wget -> download
+ssh -> ssh client
+scp -> secute copy through ssh
+sftp -> secure ftp through ssh
+
+---Chapter 17 (Searching)---
+
+

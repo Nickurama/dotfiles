@@ -416,3 +416,209 @@ time 1711690395
 old [description:"Make zsh pretty" entry:"1711626293" modified:"1711626293" priority:"D" project:"unix" status:"pending" uuid:"30342130-013a-46a6-95c5-589244b62b7b"]
 new [description:"Make zsh pretty" end:"1711690395" entry:"1711626293" modified:"1711690395" priority:"D" project:"unix" status:"completed" uuid:"30342130-013a-46a6-95c5-589244b62b7b"]
 ---
+time 1712073267
+new [description:"Make BoundingBox exceptions" entry:"1712073267" modified:"1712073267" priority:"A" project:"snake" status:"pending" uuid:"06859d0f-c901-4c45-a6b9-f25433469ab0"]
+---
+time 1712073278
+new [description:"Create git repo" entry:"1712073278" modified:"1712073278" priority:"S" project:"snake" status:"pending" uuid:"f92f6f79-7549-47af-9ce1-0f495c757253"]
+---
+time 1712073322
+new [description:"Create geometric exception" entry:"1712073322" modified:"1712073322" priority:"S" project:"snake" status:"pending" uuid:"7577d12b-548f-4ceb-80ce-834341cee970"]
+---
+time 1712073333
+new [description:"Remove Error class" entry:"1712073333" modified:"1712073333" priority:"S" project:"snake" status:"pending" uuid:"8e4769bc-bb38-45d5-a671-3db24b01fa58"]
+---
+time 1712073354
+new [description:"Make Line exceptions" entry:"1712073354" modified:"1712073354" priority:"A" project:"snake" status:"pending" uuid:"bd53a15b-1d44-43f9-bb3e-f9cd8bf325ed"]
+---
+time 1712073367
+new [description:"make LineSegment exceptions" entry:"1712073367" modified:"1712073367" priority:"A" project:"snake" status:"pending" uuid:"cf33a84e-4af9-4796-b9a3-1ab6eb51f568"]
+---
+time 1712073420
+new [description:"Make Path exceptions" entry:"1712073420" modified:"1712073420" priority:"B" project:"snake" status:"pending" uuid:"0cc8b285-7e13-40f3-8229-ef085a9e739c"]
+---
+time 1712073431
+old [description:"make LineSegment exceptions" entry:"1712073367" modified:"1712073367" priority:"A" project:"snake" status:"pending" uuid:"cf33a84e-4af9-4796-b9a3-1ab6eb51f568"]
+new [description:"Make LineSegment exceptions" entry:"1712073367" modified:"1712073431" priority:"A" project:"snake" status:"pending" uuid:"cf33a84e-4af9-4796-b9a3-1ab6eb51f568"]
+---
+time 1712073465
+new [description:"Make Point exceptions" entry:"1712073465" modified:"1712073465" priority:"A" project:"snake" status:"pending" uuid:"a029394e-e0ef-49c5-969d-25bc3548583f"]
+---
+time 1712073478
+new [description:"Make VirtualPoint exceptions" entry:"1712073478" modified:"1712073478" priority:"A" project:"snake" status:"pending" uuid:"a3ed9746-f10e-48f0-974f-96be3266536f"]
+---
+time 1712073493
+new [description:"Make Vector exceptions" entry:"1712073493" modified:"1712073493" priority:"A" project:"snake" status:"pending" uuid:"ace63180-26af-48b7-98fd-e4a12dda9cbe"]
+---
+time 1712073535
+new [description:"Remove UniquePolygons" entry:"1712073535" modified:"1712073535" priority:"S" project:"snake" status:"pending" uuid:"e6e73fec-eafc-44ce-90ee-07b978d29aaa"]
+---
+time 1712073572
+new [description:"Rename portuguese names" entry:"1712073572" modified:"1712073572" priority:"S" project:"snake" status:"pending" uuid:"ac68e2ef-e132-45af-ba01-1ab7b1ccb9ad"]
+---
+time 1712073597
+new [description:"Make Polygon exceptions" entry:"1712073597" modified:"1712073597" priority:"A" project:"snake" status:"pending" uuid:"08816898-9cb5-46bb-9135-fde13852ac2a"]
+---
+time 1712073611
+new [description:"Make Rectangle exceptions" entry:"1712073611" modified:"1712073611" priority:"A" project:"snake" status:"pending" uuid:"b930a5c7-5070-4d24-96b4-a896dd6a206d"]
+---
+time 1712073629
+new [description:"Make Square exceptions" entry:"1712073629" modified:"1712073629" priority:"A" project:"snake" status:"pending" uuid:"62594564-a2cb-411d-b678-06384a320c59"]
+---
+time 1712073638
+new [description:"Make Triangle exceptions" entry:"1712073638" modified:"1712073638" priority:"A" project:"snake" status:"pending" uuid:"3456a15c-6655-4987-afbd-a0c2ea26b8e9"]
+---
+time 1712073729
+new [description:"Separate code into packages" entry:"1712073729" modified:"1712073729" priority:"S" project:"snake" status:"pending" uuid:"25d9fa24-fc6b-4203-98c8-5d5579029d21"]
+---
+time 1712073793
+new [description:"Make BoundingBox exception tests" entry:"1712073793" modified:"1712073793" priority:"B" project:"snake" status:"pending" uuid:"5be95290-5951-4127-8db7-828af1370e73"]
+---
+time 1712073799
+new [description:"Make Line exception tests" entry:"1712073799" modified:"1712073799" priority:"B" project:"snake" status:"pending" uuid:"bcee032a-fbe0-4beb-a671-06fe882bdb39"]
+---
+time 1712073804
+new [description:"Make LineSegment exception tests" entry:"1712073804" modified:"1712073804" priority:"B" project:"snake" status:"pending" uuid:"30dd5aac-ea19-416c-90a6-825cb28b45fc"]
+---
+time 1712073810
+new [description:"Make Point exception tests" entry:"1712073810" modified:"1712073810" priority:"B" project:"snake" status:"pending" uuid:"18af359d-fb24-4c80-bac4-bc9cfbf8ab7f"]
+---
+time 1712073815
+new [description:"Make VirtualPoint exception tests" entry:"1712073815" modified:"1712073815" priority:"B" project:"snake" status:"pending" uuid:"50efc122-0d88-4e55-baee-9289a39d0fbb"]
+---
+time 1712073819
+new [description:"Make Vector exception tests" entry:"1712073819" modified:"1712073819" priority:"B" project:"snake" status:"pending" uuid:"83a5718e-c1ca-451d-905f-637fbaadba38"]
+---
+time 1712073825
+new [description:"Make Polygon exception tests" entry:"1712073825" modified:"1712073825" priority:"B" project:"snake" status:"pending" uuid:"abf1b3ff-ab21-44ca-83b7-ae991863fc95"]
+---
+time 1712073833
+new [description:"Make Rectangle exception tests" entry:"1712073833" modified:"1712073833" priority:"B" project:"snake" status:"pending" uuid:"98d54d5d-cceb-4535-b424-d654f46c543e"]
+---
+time 1712073838
+new [description:"Make Square exception tests" entry:"1712073838" modified:"1712073838" priority:"B" project:"snake" status:"pending" uuid:"1defb77c-ca35-4eea-832c-9dbd955fb626"]
+---
+time 1712073850
+new [description:"Make Triangle exception tests" entry:"1712073850" modified:"1712073850" priority:"B" project:"snake" status:"pending" uuid:"b8859346-395c-4edb-9b6a-cab3c40ec646"]
+---
+time 1712073858
+new [description:"Make Path exception tests" entry:"1712073858" modified:"1712073858" priority:"C" project:"snake" status:"pending" uuid:"ea50a7ba-1058-4464-a90d-efdf241280c8"]
+---
+time 1712074370
+new [description:"Make github readme file" entry:"1712074370" modified:"1712074370" priority:"S" project:"snake" status:"pending" uuid:"6ee13bcc-3ca6-42c9-870d-9cc920ac636c"]
+---
+time 1712074407
+new [description:"Make tests pass before starting" entry:"1712074407" modified:"1712074407" priority:"S" project:"snake" status:"pending" uuid:"85190eeb-96b8-46fe-ad59-bbee8cd73d61"]
+---
+time 1712074579
+old [description:"Make tests pass before starting" entry:"1712074407" modified:"1712074407" priority:"S" project:"snake" status:"pending" uuid:"85190eeb-96b8-46fe-ad59-bbee8cd73d61"]
+new [description:"Make tests pass before starting" end:"1712074579" entry:"1712074407" modified:"1712074579" priority:"S" project:"snake" status:"deleted" uuid:"85190eeb-96b8-46fe-ad59-bbee8cd73d61"]
+---
+time 1712075260
+old [description:"Create git repo" entry:"1712073278" modified:"1712073278" priority:"S" project:"snake" status:"pending" uuid:"f92f6f79-7549-47af-9ce1-0f495c757253"]
+new [description:"Create git repo" end:"1712075260" entry:"1712073278" modified:"1712075260" priority:"S" project:"snake" status:"completed" uuid:"f92f6f79-7549-47af-9ce1-0f495c757253"]
+---
+time 1712075591
+old [description:"Remove Error class" entry:"1712073333" modified:"1712073333" priority:"S" project:"snake" status:"pending" uuid:"8e4769bc-bb38-45d5-a671-3db24b01fa58"]
+new [description:"Remove Error class" end:"1712075591" entry:"1712073333" modified:"1712075591" priority:"S" project:"snake" status:"completed" uuid:"8e4769bc-bb38-45d5-a671-3db24b01fa58"]
+---
+time 1712075601
+old [description:"Remove UniquePolygons" entry:"1712073535" modified:"1712073535" priority:"S" project:"snake" status:"pending" uuid:"e6e73fec-eafc-44ce-90ee-07b978d29aaa"]
+new [description:"Remove UniquePolygons" end:"1712075601" entry:"1712073535" modified:"1712075601" priority:"S" project:"snake" status:"completed" uuid:"e6e73fec-eafc-44ce-90ee-07b978d29aaa"]
+---
+time 1712075604
+old [description:"Rename portuguese names" entry:"1712073572" modified:"1712073572" priority:"S" project:"snake" status:"pending" uuid:"ac68e2ef-e132-45af-ba01-1ab7b1ccb9ad"]
+new [description:"Rename portuguese names" end:"1712075604" entry:"1712073572" modified:"1712075604" priority:"S" project:"snake" status:"completed" uuid:"ac68e2ef-e132-45af-ba01-1ab7b1ccb9ad"]
+---
+time 1712077034
+old [description:"Create geometric exception" entry:"1712073322" modified:"1712073322" priority:"S" project:"snake" status:"pending" uuid:"7577d12b-548f-4ceb-80ce-834341cee970"]
+new [description:"Create geometric exception" end:"1712077034" entry:"1712073322" modified:"1712077034" priority:"S" project:"snake" status:"completed" uuid:"7577d12b-548f-4ceb-80ce-834341cee970"]
+---
+time 1712098053
+old [description:"Make BoundingBox exceptions" entry:"1712073267" modified:"1712073267" priority:"A" project:"snake" status:"pending" uuid:"06859d0f-c901-4c45-a6b9-f25433469ab0"]
+new [description:"Make BoundingBox exceptions" end:"1712098053" entry:"1712073267" modified:"1712098053" priority:"A" project:"snake" status:"completed" uuid:"06859d0f-c901-4c45-a6b9-f25433469ab0"]
+---
+time 1712098056
+old [description:"Make Line exceptions" entry:"1712073354" modified:"1712073354" priority:"A" project:"snake" status:"pending" uuid:"bd53a15b-1d44-43f9-bb3e-f9cd8bf325ed"]
+new [description:"Make Line exceptions" end:"1712098056" entry:"1712073354" modified:"1712098056" priority:"A" project:"snake" status:"completed" uuid:"bd53a15b-1d44-43f9-bb3e-f9cd8bf325ed"]
+---
+time 1712098058
+old [description:"Make LineSegment exceptions" entry:"1712073367" modified:"1712073431" priority:"A" project:"snake" status:"pending" uuid:"cf33a84e-4af9-4796-b9a3-1ab6eb51f568"]
+new [description:"Make LineSegment exceptions" end:"1712098058" entry:"1712073367" modified:"1712098058" priority:"A" project:"snake" status:"completed" uuid:"cf33a84e-4af9-4796-b9a3-1ab6eb51f568"]
+---
+time 1712098062
+old [description:"Make Point exceptions" entry:"1712073465" modified:"1712073465" priority:"A" project:"snake" status:"pending" uuid:"a029394e-e0ef-49c5-969d-25bc3548583f"]
+new [description:"Make Point exceptions" end:"1712098062" entry:"1712073465" modified:"1712098062" priority:"A" project:"snake" status:"completed" uuid:"a029394e-e0ef-49c5-969d-25bc3548583f"]
+---
+time 1712098063
+old [description:"Make VirtualPoint exceptions" entry:"1712073478" modified:"1712073478" priority:"A" project:"snake" status:"pending" uuid:"a3ed9746-f10e-48f0-974f-96be3266536f"]
+new [description:"Make VirtualPoint exceptions" end:"1712098063" entry:"1712073478" modified:"1712098063" priority:"A" project:"snake" status:"completed" uuid:"a3ed9746-f10e-48f0-974f-96be3266536f"]
+---
+time 1712098076
+old [description:"Make Vector exceptions" entry:"1712073493" modified:"1712073493" priority:"A" project:"snake" status:"pending" uuid:"ace63180-26af-48b7-98fd-e4a12dda9cbe"]
+new [description:"Make Vector exceptions" end:"1712098076" entry:"1712073493" modified:"1712098076" priority:"A" project:"snake" status:"completed" uuid:"ace63180-26af-48b7-98fd-e4a12dda9cbe"]
+---
+time 1712098081
+old [description:"Make Polygon exceptions" entry:"1712073597" modified:"1712073597" priority:"A" project:"snake" status:"pending" uuid:"08816898-9cb5-46bb-9135-fde13852ac2a"]
+new [description:"Make Polygon exceptions" end:"1712098081" entry:"1712073597" modified:"1712098081" priority:"A" project:"snake" status:"completed" uuid:"08816898-9cb5-46bb-9135-fde13852ac2a"]
+---
+time 1712098084
+old [description:"Make Rectangle exceptions" entry:"1712073611" modified:"1712073611" priority:"A" project:"snake" status:"pending" uuid:"b930a5c7-5070-4d24-96b4-a896dd6a206d"]
+new [description:"Make Rectangle exceptions" end:"1712098084" entry:"1712073611" modified:"1712098084" priority:"A" project:"snake" status:"completed" uuid:"b930a5c7-5070-4d24-96b4-a896dd6a206d"]
+---
+time 1712098088
+old [description:"Make Square exceptions" entry:"1712073629" modified:"1712073629" priority:"A" project:"snake" status:"pending" uuid:"62594564-a2cb-411d-b678-06384a320c59"]
+new [description:"Make Square exceptions" end:"1712098088" entry:"1712073629" modified:"1712098088" priority:"A" project:"snake" status:"completed" uuid:"62594564-a2cb-411d-b678-06384a320c59"]
+---
+time 1712098089
+old [description:"Make Triangle exceptions" entry:"1712073638" modified:"1712073638" priority:"A" project:"snake" status:"pending" uuid:"3456a15c-6655-4987-afbd-a0c2ea26b8e9"]
+new [description:"Make Triangle exceptions" end:"1712098089" entry:"1712073638" modified:"1712098089" priority:"A" project:"snake" status:"completed" uuid:"3456a15c-6655-4987-afbd-a0c2ea26b8e9"]
+---
+time 1712098107
+old [description:"Make Path exceptions" entry:"1712073420" modified:"1712073420" priority:"B" project:"snake" status:"pending" uuid:"0cc8b285-7e13-40f3-8229-ef085a9e739c"]
+new [description:"Make Path exceptions" end:"1712098107" entry:"1712073420" modified:"1712098107" priority:"B" project:"snake" status:"completed" uuid:"0cc8b285-7e13-40f3-8229-ef085a9e739c"]
+---
+time 1712098110
+old [description:"Make BoundingBox exception tests" entry:"1712073793" modified:"1712073793" priority:"B" project:"snake" status:"pending" uuid:"5be95290-5951-4127-8db7-828af1370e73"]
+new [description:"Make BoundingBox exception tests" end:"1712098110" entry:"1712073793" modified:"1712098110" priority:"B" project:"snake" status:"completed" uuid:"5be95290-5951-4127-8db7-828af1370e73"]
+---
+time 1712098114
+old [description:"Make Line exception tests" entry:"1712073799" modified:"1712073799" priority:"B" project:"snake" status:"pending" uuid:"bcee032a-fbe0-4beb-a671-06fe882bdb39"]
+new [description:"Make Line exception tests" end:"1712098114" entry:"1712073799" modified:"1712098114" priority:"B" project:"snake" status:"completed" uuid:"bcee032a-fbe0-4beb-a671-06fe882bdb39"]
+---
+time 1712098115
+old [description:"Make LineSegment exception tests" entry:"1712073804" modified:"1712073804" priority:"B" project:"snake" status:"pending" uuid:"30dd5aac-ea19-416c-90a6-825cb28b45fc"]
+new [description:"Make LineSegment exception tests" end:"1712098115" entry:"1712073804" modified:"1712098115" priority:"B" project:"snake" status:"completed" uuid:"30dd5aac-ea19-416c-90a6-825cb28b45fc"]
+---
+time 1712098116
+old [description:"Make Point exception tests" entry:"1712073810" modified:"1712073810" priority:"B" project:"snake" status:"pending" uuid:"18af359d-fb24-4c80-bac4-bc9cfbf8ab7f"]
+new [description:"Make Point exception tests" end:"1712098116" entry:"1712073810" modified:"1712098116" priority:"B" project:"snake" status:"completed" uuid:"18af359d-fb24-4c80-bac4-bc9cfbf8ab7f"]
+---
+time 1712098118
+old [description:"Make VirtualPoint exception tests" entry:"1712073815" modified:"1712073815" priority:"B" project:"snake" status:"pending" uuid:"50efc122-0d88-4e55-baee-9289a39d0fbb"]
+new [description:"Make VirtualPoint exception tests" end:"1712098118" entry:"1712073815" modified:"1712098118" priority:"B" project:"snake" status:"completed" uuid:"50efc122-0d88-4e55-baee-9289a39d0fbb"]
+---
+time 1712098120
+old [description:"Make Vector exception tests" entry:"1712073819" modified:"1712073819" priority:"B" project:"snake" status:"pending" uuid:"83a5718e-c1ca-451d-905f-637fbaadba38"]
+new [description:"Make Vector exception tests" end:"1712098120" entry:"1712073819" modified:"1712098120" priority:"B" project:"snake" status:"completed" uuid:"83a5718e-c1ca-451d-905f-637fbaadba38"]
+---
+time 1712098132
+old [description:"Make Polygon exception tests" entry:"1712073825" modified:"1712073825" priority:"B" project:"snake" status:"pending" uuid:"abf1b3ff-ab21-44ca-83b7-ae991863fc95"]
+new [description:"Make Polygon exception tests" end:"1712098132" entry:"1712073825" modified:"1712098132" priority:"B" project:"snake" status:"completed" uuid:"abf1b3ff-ab21-44ca-83b7-ae991863fc95"]
+---
+time 1712098134
+old [description:"Make Rectangle exception tests" entry:"1712073833" modified:"1712073833" priority:"B" project:"snake" status:"pending" uuid:"98d54d5d-cceb-4535-b424-d654f46c543e"]
+new [description:"Make Rectangle exception tests" end:"1712098134" entry:"1712073833" modified:"1712098134" priority:"B" project:"snake" status:"completed" uuid:"98d54d5d-cceb-4535-b424-d654f46c543e"]
+---
+time 1712098136
+old [description:"Make Square exception tests" entry:"1712073838" modified:"1712073838" priority:"B" project:"snake" status:"pending" uuid:"1defb77c-ca35-4eea-832c-9dbd955fb626"]
+new [description:"Make Square exception tests" end:"1712098136" entry:"1712073838" modified:"1712098136" priority:"B" project:"snake" status:"completed" uuid:"1defb77c-ca35-4eea-832c-9dbd955fb626"]
+---
+time 1712098138
+old [description:"Make Triangle exception tests" entry:"1712073850" modified:"1712073850" priority:"B" project:"snake" status:"pending" uuid:"b8859346-395c-4edb-9b6a-cab3c40ec646"]
+new [description:"Make Triangle exception tests" end:"1712098138" entry:"1712073850" modified:"1712098138" priority:"B" project:"snake" status:"completed" uuid:"b8859346-395c-4edb-9b6a-cab3c40ec646"]
+---
+time 1712098141
+old [description:"Make Path exception tests" entry:"1712073858" modified:"1712073858" priority:"C" project:"snake" status:"pending" uuid:"ea50a7ba-1058-4464-a90d-efdf241280c8"]
+new [description:"Make Path exception tests" end:"1712098141" entry:"1712073858" modified:"1712098141" priority:"C" project:"snake" status:"completed" uuid:"ea50a7ba-1058-4464-a90d-efdf241280c8"]
+---
