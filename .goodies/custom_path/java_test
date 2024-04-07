@@ -1,32 +1,40 @@
 #!/bin/bash
 
-test_suffix="Tests"
-src_dir="src"
-out_dir="out"
-junit=$(echo lib/junit-platform-console-standalone-*.jar)
+output=$(java_compile)
+if [[ "$output" != *"Compiled successfuly!"* ]]
+then
+	echo "$output"
+	exit
+fi
+
 class=$1
+out_dir="out"
+test_suffix="Tests"
+junit=$(echo lib/junit-platform-console-standalone-*.jar)
+
+# src_dir="src"
+#
+#
+# out0=$(javac -d $out_dir -cp $junit $src_dir/*.java)
+# if [ -z "$out0" ]
+# then
+# 	: #compilation successful
+# else
+# 	owo_print "Compilation failed!"
+# 	echo "$out0"
+# 	exit
+# fi
 
 
-out0=$(javac -d $out_dir -cp $junit $src_dir/*.java)
-if [ -z "$out0" ]
-then
-	: #compilation successful
-else
-	owo_print "Compilation failed!"
-	echo "$out0"
-	exit
-fi
-
-
-out1=$(javac -d $out_dir -cp $out_dir:$junit $src_dir/*"$test_suffix".java)
-if [ -z "$out1" ]
-then
-	: #test compilation successful
-else
-	owo_print "Test compilation failed!"
-	echo "$out1"
-	exit
-fi
+# out1=$(javac -d $out_dir -cp $out_dir:$junit $src_dir/*"$test_suffix".java)
+# if [ -z "$out1" ]
+# then
+# 	: #test compilation successful
+# else
+# 	owo_print "Test compilation failed!"
+# 	echo "$out1"
+# 	exit
+# fi
 
 
 if [ -z $class ]
@@ -40,5 +48,20 @@ else
 	else
 		class="${class}${test_suffix}"
 	fi
+
+	path=$(find $out_dir -regex "${out_dir}.*${class}.*$")
+	delimiter="/"
+	arr_path=(${path//${delimiter}/ })
+	arr_len=${#arr_path[@]}
+	if (( arr_len > 1))
+	then
+		for (( i=1; $i < $arr_len-1; i=i+1 ))
+		do
+			class="${arr_path[$i]}.${class}"
+		done
+	fi
+
+	owo_print "Running tests for class \"${class}\"!"
+
 	java -jar $junit execute --class-path $out_dir --scan-class-path --include-classname $class
 fi
