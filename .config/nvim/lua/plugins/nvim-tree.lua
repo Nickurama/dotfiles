@@ -21,7 +21,7 @@ return {
 				indent_markers = {
 					enable = false,
 				},
-				group_empty = true,
+				group_empty = false,
 				icons = {
 					git_placement = "after",
 					diagnostics_placement = "after",

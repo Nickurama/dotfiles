@@ -175,3 +175,5 @@
 {"description":"Make Square exception tests","end":"20240402T224856Z","entry":"20240402T160358Z","modified":"20240402T224856Z","priority":"B","project":"snake","status":"completed","uuid":"1defb77c-ca35-4eea-832c-9dbd955fb626"}
 {"description":"Make Triangle exception tests","end":"20240402T224858Z","entry":"20240402T160410Z","modified":"20240402T224858Z","priority":"B","project":"snake","status":"completed","uuid":"b8859346-395c-4edb-9b6a-cab3c40ec646"}
 {"description":"Make Path exception tests","end":"20240402T224901Z","entry":"20240402T160418Z","modified":"20240402T224901Z","priority":"C","project":"snake","status":"completed","uuid":"ea50a7ba-1058-4464-a90d-efdf241280c8"}
+{"description":"Make github readme file","entry":"20240402T161250Z","modified":"20240407T133731Z","priority":"D","project":"snake","status":"pending","uuid":"6ee13bcc-3ca6-42c9-870d-9cc920ac636c"}
+{"description":"Separate code into packages","end":"20240407T145208Z","entry":"20240402T160209Z","modified":"20240407T145208Z","priority":"S","project":"snake","status":"completed","uuid":"25d9fa24-fc6b-4203-98c8-5d5579029d21"}

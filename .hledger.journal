@@ -58,3 +58,8 @@ account equity			; misc
 	expenses:food:juice					3.98 EUR
 	assets:cash
 
+2024-04-06 super gambelas
+	expenses:food:juice					9.86 EUR
+	expenses:food						1.69 EUR
+	assets:bank:montepio
+

@@ -622,3 +622,11 @@ time 1712098141
 old [description:"Make Path exception tests" entry:"1712073858" modified:"1712073858" priority:"C" project:"snake" status:"pending" uuid:"ea50a7ba-1058-4464-a90d-efdf241280c8"]
 new [description:"Make Path exception tests" end:"1712098141" entry:"1712073858" modified:"1712098141" priority:"C" project:"snake" status:"completed" uuid:"ea50a7ba-1058-4464-a90d-efdf241280c8"]
 ---
+time 1712497051
+old [description:"Make github readme file" entry:"1712074370" modified:"1712074370" priority:"S" project:"snake" status:"pending" uuid:"6ee13bcc-3ca6-42c9-870d-9cc920ac636c"]
+new [description:"Make github readme file" entry:"1712074370" modified:"1712497051" priority:"D" project:"snake" status:"pending" uuid:"6ee13bcc-3ca6-42c9-870d-9cc920ac636c"]
+---
+time 1712501528
+old [description:"Separate code into packages" entry:"1712073729" modified:"1712073729" priority:"S" project:"snake" status:"pending" uuid:"25d9fa24-fc6b-4203-98c8-5d5579029d21"]
+new [description:"Separate code into packages" end:"1712501528" entry:"1712073729" modified:"1712501528" priority:"S" project:"snake" status:"completed" uuid:"25d9fa24-fc6b-4203-98c8-5d5579029d21"]
+---
