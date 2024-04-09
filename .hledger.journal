@@ -63,3 +63,22 @@ account equity			; misc
 	expenses:food						1.69 EUR
 	assets:bank:montepio
 
+2024-04-07 mcdonalds
+	expenses:food:restaurant:mcdonalds  12.89 EUR
+	expenses:food:restaurant:mcdonalds  24.08 EUR
+	assets:bank:montepio
+
+2024-04-08 super gambelas
+	expenses:food:juice					1.59 EUR
+	expenses:food:juice					1.49 EUR
+	expenses:food:snack					0.99 EUR
+	assets:bank:montepio
+
+2024-04-08 kebab
+	expenses:food:restaurant:kebab		4.00 EUR
+	assets:bank:montepio
+
+2024-04-09 mcdonalds
+	expenses:food:restaurant:mcdonalds  14.39 EUR
+	assets:bank:montepio
+
