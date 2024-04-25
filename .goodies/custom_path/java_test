@@ -49,7 +49,11 @@ else
 		class="${class}${test_suffix}"
 	fi
 
-	path=$(find $out_dir -regex "${out_dir}.*${class}.class$")
+	path=$(find $out_dir -regex "${out_dir}.*/${class}.class$")
+	if [[ -z "$path" ]]
+	then
+		path=$(find $out_dir -regex "${out_dir}.*${class}.class$")
+	fi
 	delimiter="/"
 	arr_path=(${path//${delimiter}/ })
 	arr_len=${#arr_path[@]}
