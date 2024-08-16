@@ -5,5 +5,4 @@
 [description:"Make OwO command" entry:"1711461175" modified:"1711625680" priority:"B" project:"unix" status:"pending" uuid:"3e08f9e6-83d3-4a1e-950e-52f89efb1056"]
 [description:"Make tab autocomplete in luasnip" entry:"1711535385" modified:"1711535385" priority:"C" project:"nvim" status:"pending" uuid:"fe229392-8851-4d85-9606-688331ac621c"]
 [description:"Executing for C" entry:"1711373052" modified:"1711549026" priority:"B" project:"unix" status:"pending" uuid:"f2968bf2-e36b-4a7a-b5b5-d6eaa4295b26"]
-[description:"Separate code into packages" end:"1712501528" entry:"1712073729" modified:"1712501528" priority:"S" project:"snake" status:"completed" uuid:"25d9fa24-fc6b-4203-98c8-5d5579029d21"]
 [description:"Make github readme file" entry:"1712074370" modified:"1712497051" priority:"D" project:"snake" status:"pending" uuid:"6ee13bcc-3ca6-42c9-870d-9cc920ac636c"]
