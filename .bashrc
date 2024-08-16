@@ -183,3 +183,6 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 # remaps caps to shift
 gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape_shifted_capslock']"
 setxkbmap -option caps:escape_shifted_capslock
+
+#Xauthority
+$XAUTHORITY="~/.Xauthority"

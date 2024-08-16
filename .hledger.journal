@@ -46,7 +46,7 @@ account equity			; misc
 	expenses:food:juice					2.74 EUR
 	expenses:food						29.74 EUR
 	expenses:avoidable					0.60 EUR
-	expenses:medicine					6.49 EUR
+	expenses:medical					6.49 EUR
 	expenses:stationery					1.78 EUR
 	assets:bank:montepio
 
@@ -80,5 +80,29 @@ account equity			; misc
 
 2024-04-09 mcdonalds
 	expenses:food:restaurant:mcdonalds  14.39 EUR
+	assets:bank:montepio
+
+2024-04-09 super gambelas
+	expenses:food:juice					0.89 EUR
+	assets:bank:montepio
+
+2024-04-09 hospital
+	expenses:medical					19.55 EUR
+	assets:bank:montepio
+
+2024-04-09 pharmacy
+	expenses:travel:uber				4.31 EUR
+	expenses:medical					12.89 EUR
+	expenses:travel:uber				3.98 EUR
+	assets:bank:montepio
+
+2024-04-09 continente
+	expenses:fun						10.38 EUR
+	expenses:food:snacks				14.33 EUR
+	expenses:food:juice					1.74 EUR
+	assets:bank:montepio
+
+2024-04-09 super gambelas
+	expenses:food:juice					2.49 EUR
 	assets:bank:montepio
 

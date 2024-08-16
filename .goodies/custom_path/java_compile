@@ -11,7 +11,7 @@ function compile
 	# rm out/* 2>/dev/null
 	files=$(find $src_dir -name \*.java)
 	# output=$(javac -cp $junit_dir $src_dir/*.java -d $out_dir 2>&1)
-	output=$(javac -d $out_dir -cp $junit_dir $files 2>&1)
+	output=$(javac -Werror -d $out_dir -cp $junit_dir $files 2>&1)
 	if [ -z "$output" ]
 	then
 		return 0

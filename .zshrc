@@ -194,3 +194,6 @@ eval "$(starship init zsh)"
 
 # add python pip apps to path
 export PATH="$PATH:/home/$USER/.local/bin"
+
+#Xauthority
+# $XAUTHORITY="~/.Xauthority"

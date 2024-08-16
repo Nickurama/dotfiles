@@ -630,3 +630,76 @@ time 1712501528
 old [description:"Separate code into packages" entry:"1712073729" modified:"1712073729" priority:"S" project:"snake" status:"pending" uuid:"25d9fa24-fc6b-4203-98c8-5d5579029d21"]
 new [description:"Separate code into packages" end:"1712501528" entry:"1712073729" modified:"1712501528" priority:"S" project:"snake" status:"completed" uuid:"25d9fa24-fc6b-4203-98c8-5d5579029d21"]
 ---
+time 1723424653
+new [description:"Make subscriber based functional receive message\/connection event -P A -Project cpp_networking" entry:"1723424653" modified:"1723424653" status:"pending" uuid:"baeb80fd-1421-4161-b4de-18d6169ae150"]
+---
+time 1723424705
+new [description:"Make subscriber based functional receive message\/connection event" entry:"1723424705" modified:"1723424705" priority:"A" project:"cpp_networking" status:"pending" uuid:"c795f5a4-5950-4c34-9c74-601ce28337d7"]
+---
+time 1723424718
+old [description:"Make subscriber based functional receive message\/connection event -P A -Project cpp_networking" entry:"1723424653" modified:"1723424653" status:"pending" uuid:"baeb80fd-1421-4161-b4de-18d6169ae150"]
+new [description:"Make subscriber based functional receive message\/connection event -P A -Project cpp_networking" end:"1723424718" entry:"1723424653" modified:"1723424718" status:"deleted" uuid:"baeb80fd-1421-4161-b4de-18d6169ae150"]
+---
+time 1723424806
+new [description:"make server connect to one client" entry:"1723424806" modified:"1723424806" priority:"S" project:"cpp_networking" status:"pending" uuid:"a6b7bac7-653f-4033-a655-2ea63ad179e2"]
+---
+time 1723424814
+new [description:"make client connect to server" entry:"1723424814" modified:"1723424814" priority:"S" project:"cpp_networking" status:"pending" uuid:"7f20d10d-9eb0-4afb-88fb-4d35af860dcf"]
+---
+time 1723424916
+old [description:"Make subscriber based functional receive message\/connection event" entry:"1723424705" modified:"1723424705" priority:"A" project:"cpp_networking" status:"pending" uuid:"c795f5a4-5950-4c34-9c74-601ce28337d7"]
+new [description:"Make subscriber based functional receive message\/connection event" entry:"1723424705" modified:"1723424916" priority:"A" project:"cpp_networking.step_1" status:"pending" uuid:"c795f5a4-5950-4c34-9c74-601ce28337d7"]
+---
+time 1723424925
+old [description:"make server connect to one client" entry:"1723424806" modified:"1723424806" priority:"S" project:"cpp_networking" status:"pending" uuid:"a6b7bac7-653f-4033-a655-2ea63ad179e2"]
+new [description:"make server connect to one client" entry:"1723424806" modified:"1723424925" priority:"S" project:"cpp_networking.step_1" status:"pending" uuid:"a6b7bac7-653f-4033-a655-2ea63ad179e2"]
+---
+time 1723424928
+old [description:"make client connect to server" entry:"1723424814" modified:"1723424814" priority:"S" project:"cpp_networking" status:"pending" uuid:"7f20d10d-9eb0-4afb-88fb-4d35af860dcf"]
+new [description:"make client connect to server" entry:"1723424814" modified:"1723424928" priority:"S" project:"cpp_networking.step_1" status:"pending" uuid:"7f20d10d-9eb0-4afb-88fb-4d35af860dcf"]
+---
+time 1723424992
+old [description:"Make subscriber based functional receive message\/connection event" entry:"1723424705" modified:"1723424916" priority:"A" project:"cpp_networking.step_1" status:"pending" uuid:"c795f5a4-5950-4c34-9c74-601ce28337d7"]
+new [description:"Make subscriber based functional receive message\/connection event" entry:"1723424705" modified:"1723424992" priority:"A" project:"cpp_networking.step_2" status:"pending" uuid:"c795f5a4-5950-4c34-9c74-601ce28337d7"]
+---
+time 1723425125
+new [description:"make server receive\/send data from\/to client (and make event)" entry:"1723425125" modified:"1723425125" priority:"S" project:"cpp_networking.step_2" status:"pending" uuid:"a338f26c-463b-49fe-ac9b-855d79209823"]
+---
+time 1723425140
+new [description:"make client receive\/send data from\/to server (and make event)" entry:"1723425140" modified:"1723425140" priority:"S" project:"cpp_networking.step_2" status:"pending" uuid:"88e6938b-3df0-452e-9515-2255503c789c"]
+---
+time 1723425254
+old [description:"make server receive\/send data from\/to client (and make event)" entry:"1723425125" modified:"1723425125" priority:"S" project:"cpp_networking.step_2" status:"pending" uuid:"a338f26c-463b-49fe-ac9b-855d79209823"]
+new [description:"make server receive\/send data from\/to client (and make event)" entry:"1723425125" modified:"1723425254" priority:"S" project:"cpp_networking.step_3" status:"pending" uuid:"a338f26c-463b-49fe-ac9b-855d79209823"]
+---
+time 1723425259
+old [description:"make client receive\/send data from\/to server (and make event)" entry:"1723425140" modified:"1723425140" priority:"S" project:"cpp_networking.step_2" status:"pending" uuid:"88e6938b-3df0-452e-9515-2255503c789c"]
+new [description:"make client receive\/send data from\/to server (and make event)" entry:"1723425140" modified:"1723425259" priority:"S" project:"cpp_networking.step_3" status:"pending" uuid:"88e6938b-3df0-452e-9515-2255503c789c"]
+---
+time 1723425276
+new [description:"make server handle client disconnections" entry:"1723425276" modified:"1723425276" priority:"S" project:"cpp_networking.step_2" status:"pending" uuid:"5bd206b2-0de9-40ba-a1e8-71ce40e9bd3b"]
+---
+time 1723425284
+new [description:"make client handle server disconnections" entry:"1723425284" modified:"1723425284" priority:"S" project:"cpp_networking.step_2" status:"pending" uuid:"bc1d7d5e-f4c2-4008-8aed-29266be57b1b"]
+---
+time 1723425326
+new [description:"make server allow multiple clients" entry:"1723425326" modified:"1723425326" priority:"S" project:"cpp_networking.step_4" status:"pending" uuid:"98efe3ed-d37e-41a5-832e-d07f6e777560"]
+---
+time 1723425364
+new [description:"make server require user login" entry:"1723425364" modified:"1723425364" priority:"S" project:"cpp_networking.step_5" status:"pending" uuid:"ff55e4d8-07a0-4204-ab6d-6a843ccff421"]
+---
+time 1723425378
+new [description:"setup client for user login" entry:"1723425378" modified:"1723425378" priority:"S" project:"cpp_networking.step_5" status:"pending" uuid:"edbba47b-1b70-4e93-9f39-cd038bf66ee0"]
+---
+time 1723425415
+new [description:"make global chatroom!" entry:"1723425415" modified:"1723425415" priority:"S" project:"cpp_networking.step_6" status:"pending" uuid:"7ab30004-d146-4235-abd7-9340a8679c72"]
+---
+time 1723429303
+new [description:"make logger" entry:"1723429303" modified:"1723429303" priority:"D" project:"cpp_networking" status:"pending" uuid:"62b0c23c-d58e-4f73-b6e7-014de98bf5e3"]
+---
+time 1723430375
+new [description:"make client able to configure server IP\/Port" entry:"1723430375" modified:"1723430375" priority:"D" project:"cpp_networking" status:"pending" uuid:"209f84e5-cfc9-497c-b9b7-028b5c1512fb"]
+---
+time 1723430396
+new [description:"make server able to configure server port" entry:"1723430396" modified:"1723430396" priority:"D" project:"cpp_networking" status:"pending" uuid:"1d0fa97a-0675-4ac4-af82-32a8a109b7e2"]
+---
