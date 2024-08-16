@@ -1,0 +1,25 @@
+#!/bin/bash
+
+out_name="owo_run.out"
+
+# out_name="owo_run"
+#
+# if [ -z $out_name ]
+# then
+# 	out_name="a.out"
+# fi
+#
+# cpp_compile $out_name
+
+cpp_compile $out_name
+
+# output=$(cpp_compile $out_name)
+# if [[ "$output" != *"Compiled successfuly"* ]]
+# then
+# 	echo "$output"
+# 	exit
+# fi
+
+# shift 1
+./$out_name $@
+rm $out_name 2>/dev/null

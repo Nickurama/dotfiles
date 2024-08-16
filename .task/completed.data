@@ -1,3 +1,5 @@
+[description:"Make subscriber based functional receive message\/connection event -P A -Project cpp_networking" end:"1723424718" entry:"1723424653" modified:"1723424718" status:"deleted" uuid:"baeb80fd-1421-4161-b4de-18d6169ae150"]
+[description:"Separate code into packages" end:"1712501528" entry:"1712073729" modified:"1712501528" priority:"S" project:"snake" status:"completed" uuid:"25d9fa24-fc6b-4203-98c8-5d5579029d21"]
 [description:"Make Polygon exception tests" end:"1712098132" entry:"1712073825" modified:"1712098132" priority:"B" project:"snake" status:"completed" uuid:"abf1b3ff-ab21-44ca-83b7-ae991863fc95"]
 [description:"Make Rectangle exception tests" end:"1712098134" entry:"1712073833" modified:"1712098134" priority:"B" project:"snake" status:"completed" uuid:"98d54d5d-cceb-4535-b424-d654f46c543e"]
 [description:"Make Square exception tests" end:"1712098136" entry:"1712073838" modified:"1712098136" priority:"B" project:"snake" status:"completed" uuid:"1defb77c-ca35-4eea-832c-9dbd955fb626"]

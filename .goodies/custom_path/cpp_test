@@ -1,0 +1,8 @@
+#!/bin/bash
+
+out_name="owo_tests.out"
+
+# g++ -Werror -Wall -Wextra -Wpedantic -I ./include $(find ./src -type f -name "[^Main]*.cpp") $(find ./test -type f -name "*.cpp") -o $out_name
+g++ -Wall -Wextra -Wpedantic -I ./include $(find ./src -type f -name "[^Main]*.cpp") $(find ./test -type f -name "*.cpp") -o $out_name
+./${out_name}
+rm ${out_name} 2>/dev/null
