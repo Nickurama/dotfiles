@@ -108,7 +108,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
 
@@ -182,8 +182,8 @@ export PATH=$PATH:~/.goodies/custom_path
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # remaps caps to escape
-gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape_shifted_capslock']"
-setxkbmap -option caps:escape_shifted_capslock
+# gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape_shifted_capslock']"
+# setxkbmap -option caps:escape_shifted_capslock
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 #[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

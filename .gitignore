@@ -22,6 +22,9 @@
 !/.config/kitty/**
 !/.config/starship.toml
 
+# I don't want this file being tracked
+/.config/nvim/lazy-lock.json
+
 !/.goodies/
 !/.goodies/**
 
