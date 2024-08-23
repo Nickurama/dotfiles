@@ -8,7 +8,7 @@ Switch keyboard layout to English (US, Symbolic)=Meta+Alt+K,none,Switch keyboard
 Switch keyboard layout to English (US, alt. intl.)=Meta+Alt+L,none,Switch keyboard layout to English (US\\, alt. intl.)
 Switch keyboard layout to Japanese=Meta+Alt+J,none,Switch keyboard layout to Japanese
 Switch keyboard layout to Japanese (Kana)=none,none,Switch keyboard layout to Japanese (Kana)
-Switch to Last-Used Keyboard Layout=,Meta+Alt+L,Switch to Last-Used Keyboard Layout
+Switch to Last-Used Keyboard Layout=none,Meta+Alt+L,Switch to Last-Used Keyboard Layout
 Switch to Next Keyboard Layout=Meta+Space,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
