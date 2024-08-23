@@ -139,9 +139,13 @@ ForegroundVisited=179,13,191
 ColorSchemeHash=a583eeda4701e3827d2283379f9f7a304d14983d
 TerminalApplication=kitty
 TerminalService=kitty.desktop
+XftHintStyle=hintslight
+XftSubPixel=rgb
+font=Noto Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [KDE]
 LookAndFeelPackage=org.kde.breezedark.desktop
+ShowDeleteCommand=false
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -155,7 +159,7 @@ Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
-Show hidden files=false
+Show hidden files=true
 Sort by=Name
 Sort directories first=true
 Sort hidden files last=false
