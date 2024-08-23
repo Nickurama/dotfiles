@@ -21,6 +21,8 @@ install_aur_packages () {
 
 add_package "qt6-base" # qt6 and tools are needed for qimgv
 add_package "qt6-tools" # if this errors try with qt5
+add_package "qt5-base" # qt6 and tools are needed for qimgv
+add_package "qt5-tools" # if this errors try with qt5
 add_aur_package "qimgv-git"
 
 install_packages
