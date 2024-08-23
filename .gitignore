@@ -25,13 +25,13 @@
 # starship for zsh
 !/.config/starship.toml
 # kde/plasma
-!/.config/kglobalshortcutsrc
-!/.config/kwinrc
-!/.config/kdeglobals
-!/.config/kdedefaults
-!/.config/kdedefaults/**
-!/.config/gtk-4.0/
-!/.config/gtk-4.0/**
+# !/.config/kglobalshortcutsrc
+# !/.config/kwinrc
+# !/.config/kdeglobals
+# !/.config/kdedefaults
+# !/.config/kdedefaults/**
+# !/.config/gtk-4.0/
+# !/.config/gtk-4.0/**
 
 # I don't want this file being tracked
 /.config/nvim/lazy-lock.json
