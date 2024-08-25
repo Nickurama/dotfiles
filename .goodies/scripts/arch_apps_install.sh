@@ -42,5 +42,7 @@ add_package "fcitx5-im"
 # add_package "gnome-calendar"
 add_package "calcurse"
 add_package "partitionmanager"
+add_package "net-tools"
+add_package "nmap"
 
 install_packages

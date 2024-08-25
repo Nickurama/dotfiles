@@ -35,6 +35,8 @@
   border-radius: 1rem;
 }
 
+#bluetooth,
+#network,
 #custom-music,
 #tray,
 #backlight,
@@ -74,6 +76,19 @@
     border-radius: 0;
 }
 
+#bluetooth {
+	color: @blue;
+	border-radius: 0rem 1rem 1rem 0rem;
+	/* margin-left: 1rem; */
+}
+
+#network {
+	color: @green;
+	/* border-radius: 1rem 1rem 1rem 1rem; */
+	border-radius: 1rem 0rem 0rem 1rem;
+	margin-left: 1rem;
+}
+
 #pulseaudio {
   color: @maroon;
   border-radius: 1rem 0px 0px 1rem;
@@ -97,6 +112,6 @@
 }
 
 #tray {
-  margin-right: 1rem;
+  margin-right: 0rem;
   border-radius: 1rem;
 }

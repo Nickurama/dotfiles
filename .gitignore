@@ -35,6 +35,10 @@
 !/.config/swaylock/**
 !/.config/wlogout/
 !/.config/wlogout/**
+!/.config/wofi/
+!/.config/wofi/**
+!/.config/dunst/
+!/.config/dunst/**
 
 # I don't want this file being tracked
 /.config/nvim/lazy-lock.json

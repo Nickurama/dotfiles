@@ -13,5 +13,7 @@ fi
 # means the user has swayidle
 if [ -f "/usr/bin/swayidle" ]
 then
-	swayidle -w timeout 900 'swaylock' timeout 300 'hyprctl dispatch dpms off' resume 'hyprctl dispatch dpms on'
+	# swayidle -w timeout 900 'swaylock' timeout 300 'hyprctl dispatch dpms off' resume 'hyprctl dispatch dpms on'
+	# swayidle -w timeout 300 'swaylock' timeout 310 'hyprctl dispatch dpms off' resume 'hyprctl dispatch dpms on'
+	swayidle -w timeout 300 'hyprctl dispatch dpms off' resume 'hyprctl dispatch dpms on'
 fi

@@ -5,7 +5,8 @@
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["custom/music"],
-    "modules-right": ["pulseaudio", "backlight", "battery", "clock", "tray", "custom/lock", "custom/power"],
+    // "modules-right": ["pulseaudio", "backlight", "battery", "clock", "tray", "custom/lock", "custom/power"],
+    "modules-right": ["tray", "network", "bluetooth", "pulseaudio", "backlight", "battery", "clock", "custom/lock", "custom/power"],
     "hyprland/workspaces": {
          "disable-scroll": true,
          "sort-by-name": true,
@@ -32,7 +33,8 @@
         // "format-alt": "<b>󰃭   {:%d/%m/%Y}</b>",
         // "format": "<b>󰥔   {:%H:%M}</b>"
         "format-alt": "<b>󰥔  {:%H:%M}</b>",
-        "format": "<b>󰥔  {:%H:%M    󰃭  %d/%m/%Y}</b>"
+        // "format": "<b>󰥔  {:%H:%M    󰃭  %d/%m/%Y}</b>"
+        "format": "<b>󰃭  {:%d/%m/%y    󰥔  %H:%M}</b>"
     },
     "backlight": {
         "device": "intel_backlight",
@@ -58,6 +60,30 @@
             "default": ["", "", " "]
         },
         "on-click": "pavucontrol"
+    },
+	"bluetooth": {
+		// "format": "<b> 󰂯  [{status}]</b>",
+		"format": "<b>󰂲 </b>",
+		"format-connected": "<b>󰂯 </b>",
+		"tooltip-format": "status: [{status}]",
+		"tooltip-format-connected": "status: [{status}]\nname: {controller_alias}\naddress: {device_address}",
+		"tooltip": true,
+		"on-click": "blueberry",
+	},
+    "network": {
+		// "format": "{ifname}",
+		"format": "󰈂",
+		"format-wifi": "<b> {icon}</b>",
+		"tooltip-format-wifi": "ID: {essid}\nStrength: {signalStrength}\nIP: {ipaddr}",
+		"format-ethernet": " 󰈁",
+		"tooltip-format-ethernet": "ID: {essid}\nIP: {ipaddr}",
+		"format-disconnected": " 󰈂",
+		"format-icons": {
+			"default": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"]
+		},
+		"max-length": 35,
+		"tooltip-format": "Network Settings",
+		"on-click": "kitty nmtui",
     },
     "custom/lock": {
         "tooltip": false,
