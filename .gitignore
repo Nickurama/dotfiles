@@ -43,6 +43,8 @@
 !/.config/fcitx5/**
 !/.config/ranger/
 !/.config/ranger/**
+!/.config/fastfetch/
+!/.config/fastfetch/**
 
 # kde theme configuration
 !/.config/kdeglobals

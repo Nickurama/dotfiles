@@ -45,7 +45,7 @@
         },
         {
             "type": "memory",
-			"key": "│ 󰍛  ",
+			"key": "│   ",
             "format": "{2}",
             "keyColor": "\u001b[90m",
         },
@@ -69,7 +69,7 @@
         },
         {
             "type": "shell",
-			"key": "│   ",
+			"key": "│   ",
             "format": "{3}",
             "keyColor": "\u001b[90m",
         },
