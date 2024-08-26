@@ -45,6 +45,8 @@
 !/.config/ranger/**
 !/.config/fastfetch/
 !/.config/fastfetch/**
+!/.config/btop/
+!/.config/btop/**
 
 # kde theme configuration
 !/.config/kdeglobals
