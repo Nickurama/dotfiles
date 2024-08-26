@@ -24,6 +24,9 @@ add_package "qt6-tools" # if this errors try with qt5
 add_package "qt5-base" # qt6 and tools are needed for qimgv
 add_package "qt5-tools" # if this errors try with qt5
 add_aur_package "qimgv-git"
+# add_aur_package "mpvpaper"
+add_aur_package "swaylock-effects"
+add_aur_package "wlogout"
 
 install_packages
 install_aur_packages

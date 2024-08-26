@@ -40,6 +40,9 @@
 !/.config/dunst/
 !/.config/dunst/**
 
+# kde theme configuration
+!/.config/kdeglobals
+
 # I don't want this file being tracked
 /.config/nvim/lazy-lock.json
 
