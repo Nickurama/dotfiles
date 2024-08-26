@@ -197,3 +197,7 @@ export PATH="$PATH:/home/$USER/.local/bin"
 
 #Xauthority
 # $XAUTHORITY="~/.Xauthority"
+
+# make nvim default editor
+export EDITOR=nvim
+export VISUAL=nvim

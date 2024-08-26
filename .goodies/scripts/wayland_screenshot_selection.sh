@@ -5,4 +5,9 @@
 # - grim (to screenshot coordinates)
 # - wl-clipboard (for copying to clipboard)
 
-grim -g "$(slurp)" - | wl-copy
+# grim -g "$(slurp)" - | wl-copy
+
+#new dependencies:
+# - grimblast
+
+grimblast --notify --cursor --freeze copy area

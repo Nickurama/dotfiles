@@ -39,6 +39,10 @@
 !/.config/wofi/**
 !/.config/dunst/
 !/.config/dunst/**
+!/.config/fcitx5/
+!/.config/fcitx5/**
+!/.config/ranger/
+!/.config/ranger/**
 
 # kde theme configuration
 !/.config/kdeglobals
