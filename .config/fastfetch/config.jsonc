@@ -1,0 +1,84 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "~/.config/fastfetch/logo.png",
+        "type": "kitty",
+		"width": 30,
+		"height": 15,
+        "padding": {
+            "top": 1,
+            "left": 3
+        }
+    },
+	"display": {
+		"separator": "",
+	},
+    "modules": [
+		"break",
+		"break",
+		"break",
+		"break",
+		"break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌────────────────────────────────────────────┐",
+        },
+        {
+            "type": "os",
+            "key": "│ 󰣇  ",
+            // "format": "\u001b[38;5;092m{pretty-name}",
+            "format": "{pretty-name}",
+            "keyColor": "\u001b[90m",
+        },
+        {
+            "type": "cpu",
+            "key": "│   ",
+            "format": "{1}",
+            "showPeCoreCount": true,
+            "keyColor": "\u001b[90m",
+        },
+        {
+            "type": "gpu",
+            "format": "{2}",
+            "key": "│ 󰍛  ",
+            "keyColor": "\u001b[90m",
+        },
+        {
+            "type": "memory",
+			"key": "│ 󰍛  ",
+            "format": "{2}",
+            "keyColor": "\u001b[90m",
+        },
+   //      {
+   //          "type": "localip",
+   //          "format": "{1}",
+   //          "key": "│   ",
+   //          "keyColor": "\u001b[90m",
+			// "showPrefixLen": false,
+   //      },
+        {
+            "type": "wm",
+            "key": "│   ",
+            "keyColor": "\u001b[90m",
+        },
+        {
+            "type": "terminal",
+			"key": "│   ",
+            "format": "{1}",
+            "keyColor": "\u001b[90m",
+        },
+        {
+            "type": "shell",
+			"key": "│   ",
+            "format": "{3}",
+            "keyColor": "\u001b[90m",
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└─────────────────────────── \u001b[38;5;233mx \u001b[38;5;138mx \u001b[38;5;144mx \u001b[38;5;108mx \u001b[38;5;109mx \u001b[38;5;103mx \u001b[38;5;139mx \u001b[38;5;145mx \u001b[90m┘",
+            "keyColor": "\u001b[90m",
+        },
+        // "break",
+    ]
+}
+
