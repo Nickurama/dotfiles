@@ -74,6 +74,6 @@ add_package "breeze-icons"
 add_package "breeze5"
 
 add_package "kdialog"
-add_package "gt5ct"
+add_package "qt5ct"
 
 install_packages
