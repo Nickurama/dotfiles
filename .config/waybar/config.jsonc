@@ -43,19 +43,22 @@
     },
     "backlight": {
         "device": "intel_backlight",
-        "format": "{icon}",
-        "format-icons": ["", "", "", "", "", "", "", "", ""]
+        "format": "<b>{icon}</b>",
+        "format-icons": ["", "", "", "", "", "", "", "", ""],
+		"tooltip-format": "{percent}%",
     },
     "battery": {
+		"interval": 5,
         "states": {
             "warning": 30,
             "critical": 15
         },
-        "format": "{icon}",
-        "format-charging": "",
-        "format-plugged": "",
-        "format-alt": "{icon}",
-        "format-icons": ["", "",  "", "", "", "", "", "", "", "", "", ""]
+        "format": "<b>{icon}</b>",
+        "format-charging": "<b>{icon}󱐋</b>",
+        // "format-plugged": "",
+        // "format-alt": "{icon}",
+		"tooltip-format": "{capacity}%\n{time}",
+        "format-icons": ["󰂃", "󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
@@ -68,7 +71,8 @@
     },
 	"bluetooth": {
 		// "format": "<b> 󰂯  [{status}]</b>",
-		"format": "<b>󰂲 </b>",
+		"format": "<b>󰂯 </b>",
+		"format-off": "<b>󰂲 </b>",
 		"format-connected": "<b>󰂯 </b>",
 		"tooltip-format": "status: [{status}]",
 		"tooltip-format-connected": "status: [{status}]\nname: {controller_alias}\naddress: {device_address}",

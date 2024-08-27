@@ -63,6 +63,7 @@ add_package "blueberry"
 add_package "gnome-bluetooth-3.0"
 add_package "rclone"
 add_package "lxsession"
+add_package "python-pillow" # dependency for showing images in ranger
 add_package "ranger"
 add_package "thunar"
 add_package "imagemagick" # dependency some software has for imaging things
