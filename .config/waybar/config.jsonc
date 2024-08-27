@@ -1,0 +1,103 @@
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    // "width": 1280, // Waybar width
+    // Choose the order of the modules
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["custom/music"],
+    // "modules-right": ["pulseaudio", "backlight", "battery", "clock", "tray", "custom/lock", "custom/power"],
+    "modules-right": ["tray", "network", "bluetooth", "pulseaudio", "backlight", "battery", "clock", "custom/notifications", "custom/lock", "custom/power"],
+    "hyprland/workspaces": {
+         "disable-scroll": true,
+         "sort-by-name": true,
+         "format": " {icon}  ",
+         "format-icons": {
+             "default": "",
+         },
+     },
+    "tray": {
+        "icon-size": 21,
+        "spacing": 10
+    },
+    "custom/music": {
+        "format": "  {}",
+        "escape": true,
+        "interval": 5,
+        "tooltip": false,
+        "exec": "playerctl metadata --format='{{ title }}'",
+        "on-click": "playerctl play-pause",
+        "max-length": 50
+    },
+	"custom/notifications": {
+		"exec": "~/.config/waybar/scripts/dunst.sh",
+		"restart-interval": 1,
+		"on-click": "dunstctl set-paused toggle",
+	},
+    "clock": {
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        // "format-alt": "<b>󰃭   {:%d/%m/%Y}</b>",
+        // "format": "<b>󰥔   {:%H:%M}</b>"
+        "format-alt": "<b>󰥔  {:%H:%M}</b>",
+        // "format": "<b>󰥔  {:%H:%M    󰃭  %d/%m/%Y}</b>"
+        "format": "<b>󰃭  {:%d/%m/%y    󰥔  %H:%M}</b>"
+    },
+    "backlight": {
+        "device": "intel_backlight",
+        "format": "{icon}",
+        "format-icons": ["", "", "", "", "", "", "", "", ""]
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon}",
+        "format-charging": "",
+        "format-plugged": "",
+        "format-alt": "{icon}",
+        "format-icons": ["", "",  "", "", "", "", "", "", "", "", "", ""]
+    },
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "<b>{icon}  {volume}%</b>",
+        "format-muted": "",
+        "format-icons": {
+            "default": ["", "", " "]
+        },
+        "on-click": "pavucontrol"
+    },
+	"bluetooth": {
+		// "format": "<b> 󰂯  [{status}]</b>",
+		"format": "<b>󰂲 </b>",
+		"format-connected": "<b>󰂯 </b>",
+		"tooltip-format": "status: [{status}]",
+		"tooltip-format-connected": "status: [{status}]\nname: {controller_alias}\naddress: {device_address}",
+		"tooltip": true,
+		"on-click": "blueberry",
+	},
+    "network": {
+		// "format": "{ifname}",
+		"format": "󰈂",
+		"format-wifi": "<b> {icon}</b>",
+		"tooltip-format-wifi": "ID: {essid}\nStrength: {signalStrength}\nIP: {ipaddr}",
+		"format-ethernet": " 󰈁",
+		"tooltip-format-ethernet": "ID: {essid}\nIP: {ipaddr}",
+		"format-disconnected": " 󰈂",
+		"format-icons": {
+			"default": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"]
+		},
+		"max-length": 35,
+		"tooltip-format": "Network Settings",
+		"on-click": "kitty nmtui",
+    },
+    "custom/lock": {
+        "tooltip": false,
+        "on-click": "sh -c '(sleep 0.5s; swaylock)' & disown",
+        "format": "",
+    },
+    "custom/power": {
+        "tooltip": false,
+        "on-click": "wlogout &",
+        "format": "⏻ "
+    }
+}

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# means the user is using hyprland
+if [ -n $(printenv HYPRLAND_INSTANCE_SIGNATURE) ]
+then
+	# launches fcitx daemon
+	fcitx5 -d &
+	GTK_IM_MODULE=fcitx
+	QT_IM_MODULE=fcitx
+	XMODIFIERS=@im=fcitx
+fi
+
+# means the user has swayidle
+if [ -f "/usr/bin/swayidle" ]
+then
+	# swayidle -w timeout 900 'swaylock' timeout 300 'hyprctl dispatch dpms off' resume 'hyprctl dispatch dpms on'
+	# swayidle -w timeout 300 'swaylock' timeout 310 'hyprctl dispatch dpms off' resume 'hyprctl dispatch dpms on'
+	swayidle -w timeout 300 'hyprctl dispatch dpms off' resume 'hyprctl dispatch dpms on'
+fi

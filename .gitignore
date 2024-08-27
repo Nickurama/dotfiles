@@ -9,6 +9,7 @@
 !.profile
 !.hledger.journal
 !.calories.db
+!.startscript
 
 #include folders
 !/.task/
@@ -24,18 +25,36 @@
 !/.config/kitty/**
 # starship for zsh
 !/.config/starship.toml
-# kde/plasma
-# !/.config/kglobalshortcutsrc
-# !/.config/kwinrc
-# !/.config/kdeglobals
-# !/.config/kdedefaults
-# !/.config/kdedefaults/**
-# !/.config/gtk-4.0/
-# !/.config/gtk-4.0/**
+
+# hyprland stuff
+!/.config/hypr/
+!/.config/hypr/**
+!/.config/waybar/
+!/.config/waybar/**
+!/.config/swaylock/
+!/.config/swaylock/**
+!/.config/wlogout/
+!/.config/wlogout/**
+!/.config/wofi/
+!/.config/wofi/**
+!/.config/dunst/
+!/.config/dunst/**
+!/.config/fcitx5/
+!/.config/fcitx5/**
+!/.config/ranger/
+!/.config/ranger/**
+!/.config/fastfetch/
+!/.config/fastfetch/**
+!/.config/btop/
+!/.config/btop/**
+
+# kde theme configuration
+!/.config/kdeglobals
 
 # I don't want this file being tracked
 /.config/nvim/lazy-lock.json
 
+# goodies :3
 !/.goodies/
 !/.goodies/**
 
