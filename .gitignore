@@ -29,6 +29,8 @@
 # hyprland stuff
 !/.config/hypr/
 !/.config/hypr/**
+#specific monitor settings shouldn't be tracked
+/.config/hypr/monitor.conf
 !/.config/waybar/
 !/.config/waybar/**
 !/.config/swaylock/
