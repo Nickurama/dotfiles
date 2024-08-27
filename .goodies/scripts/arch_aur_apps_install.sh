@@ -27,6 +27,7 @@ add_aur_package "qimgv-git"
 # add_aur_package "mpvpaper"
 add_aur_package "swaylock-effects"
 add_aur_package "wlogout"
+add_aur_package "hyprpicker"
 
 install_packages
 install_aur_packages
