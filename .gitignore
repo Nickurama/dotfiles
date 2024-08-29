@@ -34,7 +34,7 @@
 !/.config/hypr/
 !/.config/hypr/**
 #specific monitor settings shouldn't be tracked
-/.config/hypr/monitor.conf
+/.config/hypr/monitors.conf
 !/.config/waybar/
 !/.config/waybar/**
 !/.config/swaylock/
