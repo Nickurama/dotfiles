@@ -27,7 +27,7 @@ data.location=/home/luna/.task
 #include light-16.theme
 #include light-256.theme
 #include dark-16.theme
-#include dark-256.theme
+# include dark-256.theme
 #include dark-red-256.theme
 #include dark-green-256.theme
 #include dark-blue-256.theme
@@ -55,9 +55,31 @@ urgency.uda.priority.C.coefficient=4.0
 urgency.uda.priority.D.coefficient=3.0
 urgency.uda.priority.F.coefficient=2.0
 
-color.uda.priority.S=color11
-color.uda.priority.A=color5
-color.uda.priority.B=color12
-color.uda.priority.C=color10
-color.uda.priority.D=color15
-color.uda.priority.F=color7
+# color.uda.priority.S=color11
+# color.uda.priority.A=color5
+# color.uda.priority.B=color12
+# color.uda.priority.C=color10
+# color.uda.priority.D=color15
+# color.uda.priority.F=color7
+
+
+
+
+report.ls.labels=ID,Project,Description,Diff,P,Urg
+# report.ls.columns=id,project.parent,description,difficulty,priority,urgency
+report.ls.columns=id,project,description,difficulty,priority,urgency
+report.ls.description="Task list"
+report.ls.filter=status:pending
+report.ls.sort=project+,priority-,urgency-
+
+uda.difficulty.type=string
+uda.difficulty.label=Diff
+uda.difficulty.values=F,D,C,B,A,S
+uda.difficulty.default=C
+
+color.uda.difficulty.S=color11
+color.uda.difficulty.A=color5
+color.uda.difficulty.B=color12
+color.uda.difficulty.C=color10
+color.uda.difficulty.D=color15
+color.uda.difficulty.F=color7
