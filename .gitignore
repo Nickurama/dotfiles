@@ -31,8 +31,8 @@
 !/.config/starship.toml
 
 # hyprland stuff
-# !/.config/hypr/
-# !/.config/hypr/**
+!/.config/hypr/
+!/.config/hypr/**
 #specific monitor settings shouldn't be tracked
 .config/hypr/monitors.conf
 !/.config/waybar/
