@@ -65,12 +65,15 @@ urgency.uda.priority.F.coefficient=2.0
 
 
 
-report.ls.labels=ID,Project,Description,Diff,P,Urg
+# report.ls.labels=ID,Project,Description,Diff,P,Urg
+report.ls.labels=ID,Project,Description,Diff
 # report.ls.columns=id,project.parent,description,difficulty,priority,urgency
-report.ls.columns=id,project,description,difficulty,priority,urgency
+# report.ls.columns=id,project,description,difficulty,priority,urgency
+report.ls.columns=id,project,description,difficulty
 report.ls.description="Task list"
 report.ls.filter=status:pending
-report.ls.sort=project+,priority-,urgency-
+# report.ls.sort=project+,priority-,urgency-
+report.ls.sort=project+,difficulty+
 
 uda.difficulty.type=string
 uda.difficulty.label=Diff
