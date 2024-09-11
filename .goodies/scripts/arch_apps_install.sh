@@ -54,7 +54,7 @@ add_package "xdg-desktop-portal-hyprland"
 add_package "slurp"
 add_package "grim"
 add_package "pavucontrol"
-add_package "swayidle"
+# add_package "swayidle" # worse than hypridle - it triggers while media is playing
 add_package "ttf-roboto-mono"
 add_package "dunst"
 add_package "wofi"
@@ -77,5 +77,9 @@ add_package "breeze5"
 
 add_package "kdialog"
 add_package "qt5ct"
+
+
+add_package "zathura" # pdf
+add_package "hypridle"
 
 install_packages

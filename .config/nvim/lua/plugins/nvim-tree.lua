@@ -38,7 +38,7 @@ return {
 			},
 			filters = {
 				dotfiles = true,
-				git_ignored = true,
+				git_ignored = false,
 			},
 			git = {
 				enable = true;
