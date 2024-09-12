@@ -43,7 +43,7 @@ add_package "fcitx5-im"
 # add_package "gnome-calendar"
 add_package "calcurse"
 add_package "partitionmanager"
-dd_package "net-tools"
+add_package "net-tools"
 add_package "nmap"
 
 #hyprland stuff
@@ -81,5 +81,10 @@ add_package "qt5ct"
 
 add_package "zathura" # pdf
 add_package "hypridle"
+
+add_package "tree-sitter" # for nvim
+add_package "tree-sitter-cli"
+
+add_package "texlive-latexrecommended"
 
 install_packages

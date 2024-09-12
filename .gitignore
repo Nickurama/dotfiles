@@ -58,7 +58,7 @@
 !/.config/kdeglobals
 
 # I don't want this file being tracked
-/.config/nvim/lazy-lock.json
+.config/nvim/lazy-lock.json
 
 # goodies :3
 !/.goodies/
