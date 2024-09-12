@@ -68,6 +68,7 @@ add_package "ranger"
 add_package "thunar"
 add_package "imagemagick" # dependency some software has for imaging things
 add_package "btop"
+add_package "hyprlock"
 
 # breeze theme for gtk
 add_package "breeze"
@@ -86,5 +87,7 @@ add_package "tree-sitter" # for nvim
 add_package "tree-sitter-cli"
 
 add_package "texlive-latexrecommended"
+
+add_package "ntfs-3g" # for mounting ntfs filesystems
 
 install_packages

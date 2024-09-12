@@ -53,6 +53,14 @@
 !/.config/fastfetch/**
 !/.config/btop/
 !/.config/btop/**
+/Pictures/*
+!/Pictures/
+/Pictures/pfps/*
+!/Pictures/pfps/
+!/Pictures/pfps/user_pfp.png
+/Pictures/Wallpapers/*
+!/Pictures/Wallpapers/
+!/Pictures/Wallpapers/desktop_wallpaper.png
 
 # kde theme configuration
 !/.config/kdeglobals
