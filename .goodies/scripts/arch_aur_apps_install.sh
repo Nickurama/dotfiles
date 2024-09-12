@@ -28,6 +28,7 @@ add_aur_package "qimgv-git"
 add_aur_package "swaylock-effects"
 add_aur_package "wlogout"
 add_aur_package "hyprpicker"
+# add_aur_package "auto-cpufreq" # you then need to run "sudo auto-cpufreq --install"
 
 install_packages
 install_aur_packages
