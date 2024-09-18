@@ -34,6 +34,7 @@ return {
 		"neovim/nvim-lspconfig",
 		config = function()
 			local capabilities = require('cmp_nvim_lsp').default_capabilities() -- for cmp_nvim_lsp completions
+			-- capabilities.textDocument.completion.completionItem.snippetSupport = false -- turns off snippets
 
 			local lspconfig = require("lspconfig")
 			lspconfig.lua_ls.setup({
