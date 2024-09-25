@@ -62,3 +62,7 @@ vim.keymap.set("n", "<Tab>", ">>")
 vim.keymap.set("n", "<S-Tab>", "<<")
 vim.keymap.set("v", "<Tab>", "><Esc>gv")
 vim.keymap.set("v", "<S-Tab>", "<<Esc>gv")
+
+-- removes auto-comment on new line
+vim.cmd('autocmd BufEnter * set formatoptions-=cro')
+vim.cmd('autocmd BufEnter * setlocal formatoptions-=cro')

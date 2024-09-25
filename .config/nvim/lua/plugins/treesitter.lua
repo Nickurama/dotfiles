@@ -17,11 +17,12 @@ return {
 				"markdown",
 				"vim",
 				"vimdoc",
-				"latex"
+				"latex",
+				"comment"
 			},
 			auto_install = true,
 			highlight = { enable = true },
-			indent = { enable = true },
+			indent = { enable = false },
 		})
 	end
 }
