@@ -71,13 +71,13 @@
     },
 	"bluetooth": {
 		// "format": "<b> 󰂯  [{status}]</b>",
-		"format": "<b>󰂯 </b>",
+		"format": "<b>󰂲 </b>",
 		"format-off": "<b>󰂲 </b>",
 		"format-connected": "<b>󰂯 </b>",
 		"tooltip-format": "status: [{status}]",
 		"tooltip-format-connected": "status: [{status}]\nname: {controller_alias}\naddress: {device_address}",
 		"tooltip": true,
-		"on-click": "blueberry",
+		"on-click": "blueman-manager",
 	},
     "network": {
 		// "format": "{ifname}",
