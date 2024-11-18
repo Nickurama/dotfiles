@@ -91,4 +91,6 @@ add_package "texlive-latexrecommended"
 
 add_package "ntfs-3g" # for mounting ntfs filesystems
 
+add_package "cups" # printer
+
 install_packages

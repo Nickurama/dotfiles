@@ -30,5 +30,8 @@ add_aur_package "wlogout"
 add_aur_package "hyprpicker"
 # add_aur_package "auto-cpufreq" # you then need to run "sudo auto-cpufreq --install"
 
+add_aur_package "iscan" # printer scan
+add_aur_package "iscan-plugin-network" # printer scan network
+
 install_packages
 install_aur_packages
