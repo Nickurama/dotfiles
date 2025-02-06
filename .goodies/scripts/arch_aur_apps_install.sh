@@ -33,5 +33,9 @@ add_aur_package "hyprpicker"
 add_aur_package "iscan" # printer scan
 add_aur_package "iscan-plugin-network" # printer scan network
 
+add_aur_package "qimgv"
+add_aur_package "vesktop-bin"
+##add_aur_package "spotify"
+
 install_packages
 install_aur_packages

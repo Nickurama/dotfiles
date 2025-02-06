@@ -19,30 +19,32 @@ add_package "unzip"
 add_package "maven"
 add_package "npm"
 
-add_package "dolphin"
-add_package "dolphin-plugins"
-add_package "bluez-obex" # enables bluetooth for dolphin
-add_package "ffmpegthumbs" # for dolphin thumbnails
+##add_package "dolphin"
+##add_package "dolphin-plugins"
+##add_package "bluez-obex" # enables bluetooth for dolphin
+##add_package "ffmpegthumbs" # for dolphin thumbnails
 add_package "libreoffice-fresh"
-add_package "kclock"
-add_package "kdeconnect"
-add_package "spectacle"
-add_package "mpv"
-add_package "strawberry"
+##add_package "kclock"
+##add_package "kdeconnect"
+##add_package "spectacle"
+##add_package "mpv"
+add_package "vlc" # new (31/01/25)
+##add_package "strawberry"
 add_package "thunderbird"
 # add_package "audacity"
 add_package "wireshark-qt"
 # add_package "lutris"
-add_package "task"
-add_package "okular"
+##add_package "task"
+##add_package "okular"
 # add_package "obs-studio"
 add_package "ark"
 add_package "rsync"
-add_package "noto-fonts-cjk"
+# add_package "noto-fonts-cjk"
+add_package "ttf-fantasque-nerd"
 add_package "fcitx5-im"
 # add_package "gnome-calendar"
-add_package "calcurse"
-add_package "partitionmanager"
+##add_package "calcurse"
+##add_package "partitionmanager"
 add_package "net-tools"
 add_package "nmap"
 
@@ -58,8 +60,8 @@ add_package "pavucontrol"
 add_package "ttf-roboto-mono"
 add_package "dunst"
 add_package "wofi"
-add_package "wireplumber"
-add_package "blueman"
+##add_package "wireplumber"
+##add_package "blueman"
 # add_package "blueberry"
 # add_package "gnome-bluetooth-3.0"
 add_package "rclone"
@@ -72,10 +74,10 @@ add_package "btop"
 add_package "hyprlock"
 
 # breeze theme for gtk
-add_package "breeze"
-add_package "breeze-gtk"
-add_package "breeze-icons"
-add_package "breeze5"
+##add_package "breeze"
+##add_package "breeze-gtk"
+##add_package "breeze-icons"
+##add_package "breeze5"
 
 add_package "kdialog"
 add_package "qt5ct"
@@ -92,5 +94,11 @@ add_package "texlive-latexrecommended"
 add_package "ntfs-3g" # for mounting ntfs filesystems
 
 add_package "cups" # printer
+
+add_package "feh"
+add_package "qalculate-qt"
+add_package "pipewire" # should also set systemctl --user
+add_package "pipewire-pulse" # should also set systemctl --user
+add_package "hyprpicker" # for freezing during screenshots
 
 install_packages
