@@ -8,8 +8,10 @@ then
 	exit
 fi
 
+lib="lib"
+out="out"
 
-cd out
+# cd out
 
 class="Main"
 if [ -z $1 ]
@@ -20,4 +22,5 @@ else
 	class=$1
 fi
 
-java $class
+# java $class
+java -cp "$out:$lib/*" $class

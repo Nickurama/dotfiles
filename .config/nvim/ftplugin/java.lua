@@ -45,6 +45,9 @@ else
 	os.execute("mkdir " .. workspace_dir)
 end
 
+-- jar libraries
+local libraries = vim.fn.split(vim.fn.glob(vim.fn.getcwd() .. "/lib/*.jar"), "\n")
+
 -- get mason install path
 local install_path = require("mason-registry").get_package("jdtls"):get_install_path()
 
@@ -119,9 +122,11 @@ local config = {
 			},
 			signatureHelp = { enabled = true },
 			project = {
-				referencedLibraries = {
-					vim.fn.glob(vim.fn.getcwd() .. "/lib/junit-platform-console-standalone-*.jar"),
-				},
+				referencedLibraries = libraries
+				-- referencedLibraries = {
+				-- 	-- vim.fn.glob(vim.fn.getcwd() .. "/lib/junit-platform-console-standalone-*.jar"),
+				-- 	vim.fn.glob(vim.fn.getcwd() .. "/lib/antlr-*.jar"),
+				-- },
 			},
 		},
 	},

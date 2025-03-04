@@ -26,9 +26,11 @@ function compile
 
 src_dir="src"
 out_dir="out"
-junit_dir=$(echo lib/junit-platform-console-standalone-*.jar)
+# junit_dir=$(echo lib/junit-platform-console-standalone-*.jar)
+libs=$(echo lib/*.jar)
 
-compile $src_dir $out_dir $junit_dir
+# compile $src_dir $out_dir $junit_dir
+compile $src_dir $out_dir $libs
 if (( $? == 0 ))
 then
 	owo_print "Compiled successfuly!"

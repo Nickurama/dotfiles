@@ -201,3 +201,6 @@ export PATH="$PATH:/home/$USER/.local/bin"
 # make nvim default editor
 export EDITOR=nvim
 export VISUAL=nvim
+
+# make ssh not freak out with kitty
+export TERM=xterm-256color
