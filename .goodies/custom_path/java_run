@@ -22,5 +22,6 @@ else
 	class=$1
 fi
 
-# java $class
-java -cp "$out:$lib/*" $class
+# java -cp "$out:$lib/*" $class
+# $1 will be the $class; the others will be given as parameters
+java -cp "$out:$lib/*" $@

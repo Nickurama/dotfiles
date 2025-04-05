@@ -10,6 +10,7 @@
 !.hledger.journal
 !.calories.db
 !.startscript
+!.tmux.conf
 
 #include folders
 !/.task/
