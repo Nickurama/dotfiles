@@ -34,6 +34,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][ad685e90-6ac3-5c35-84f9-1eeb6a72dee7]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][bcd54916-5b27-57ac-ba5d-02e479793746]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][d02c035d-eef0-5c68-aa2f-2e83d0ba08b1]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -51,7 +54,3 @@ InputMethod[$e]=/usr/share/applications/fcitx5-wayland-launcher.desktop
 
 [Xwayland]
 Scale=1.25
-
-[org.kde.kdecoration2]
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__WillowDarkAltShader
