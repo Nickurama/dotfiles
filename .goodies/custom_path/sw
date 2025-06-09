@@ -1,0 +1,3 @@
+#!/bin/bash
+
+SECONDS=0; while true; do echo -ne "Elapsed: $SECONDS seconds\r"; sleep 1; done
