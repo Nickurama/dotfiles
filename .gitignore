@@ -73,4 +73,8 @@
 !/.goodies/
 !/.goodies/**
 
+# sway
+!/.config/sway/
+!/.config/sway/**
+
 # owo
